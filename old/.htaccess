@@ -1,0 +1,7 @@
+
+
+# BEGIN Brute Force Login Protection
+<FilesMatch ".*\.(php|html?|css|js|jpe?g|png|gif)$">
+order deny,allow
+</FilesMatch>
+# END Brute Force Login Protection

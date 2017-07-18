@@ -1,0 +1,56 @@
+    <div class='content'>
+      <div class='form-container container nopadding'>
+        
+        <form name='form' class="form-contact col-md-6 col-sm-10 col-xs-10" style='background-color: rgba(255,255,255,.7);' ng-controller='contacto' novalidate>
+        
+          <span>CONTACT US </span>
+          
+          <label >Name:</label>
+          <input type="text" name='name' class="box" ng-model='name' required>
+          <p ng-show='!form.name.$valid'>The name is required.</p>
+
+          <label >E-mail:</label>
+          <input style='background-color: rgba(255,255,255,255)' name="mail" type="email" class="box" ng-model='mail' required>
+          <p ng-show="!form.mail.$valid">Invalid mail</p>
+          
+          <label class=''>Confirm e-mail</label>
+          <input style='background-color: rgba(255,255,255,255)' name="c-mail" type="email" class="box" ng-model='cmail' required>
+          <p ng-show="errorConfirm">The e-mail is not the same.</p>
+
+          <label >Telephone:</label>
+          <input style='background-color: rgba(255,255,255,255)' name="phone" class="box" ng-model='phone'>
+
+          <label class="cph12">Message:</label>
+          <textarea style='background-color: rgba(255,255,255,1)' name="message" cols="40" rows="5"  ng-model='message' class="box" required></textarea>
+          <p ng-show='!form.message.$valid'>Please tell us more!</p>
+          
+          <button class="boton_form" type='submit' ng-click='sendmail()'>
+            <p style='color:white;'>SEND</p>
+          </button>
+
+
+
+          <label class="privacy" >We are committed to respecting your privacy. We will not disclose information about your individual visits to our web site or any of the personal information that you provide such as your name or e-mail address to any outside parties except when required by law to do so.</label>
+          <!--
+
+    <div class="column-one no-padding modal fade modal" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content" >
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title" style="text-align: center;">
+                        {{ titleModal }}
+                    </h4>
+                </div>
+                <div class="modal-body" ng-bind-html="bodyModal"></div>
+            </div>
+        </div>
+    </div>
+
+
+        -->
+        
+        </form>
+        
+      </div>  
+    </div>
