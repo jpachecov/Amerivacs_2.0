@@ -1150,7 +1150,7 @@ app.run(function($rootScope){
 					{
 						'id':'AVC-20',
 						'size':'20” x 1/4',
-						'price':'*$5,200.00'
+						'price':'$5,200.00'
 					},
 				],
 			'specs':
