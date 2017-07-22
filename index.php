@@ -84,7 +84,6 @@
 
 
       <div class="footer container nopadding">
-
          <div class='info_foot col-md-7 col-sm-6 col-xs-12'>
             <div class='foot-img col-md-8 col-sm-12 col-xs-12' style='padding-left:0%'>
               <img src="img/home/logo-menu_000.png" alt="">
@@ -97,6 +96,9 @@
              <br>
              San Diego, CA 92154
            </p>
+            <div class="col-md-12 col-sm-12 col-xs-12" style="padding-top:20px">
+              <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?code=6f400ac2f6094ade9615ab5897e016a2"></script>          
+            </div>
          </div>
          <div class='submenu col-md-5 col-xs-12 col-sm-6'>
            <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("home")'>HOME</span>
