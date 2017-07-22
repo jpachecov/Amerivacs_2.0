@@ -84,13 +84,16 @@
 
 
       <div class="footer container nopadding">
+
          <div class='info_foot col-md-7 col-sm-6 col-xs-12'>
-          <span style='font-weight: bold;'>AmeriVacS</span>
-           <p>
+            <div class='foot-img col-md-8 col-sm-12 col-xs-12' style='padding-left:0%'>
+              <img src="img/home/logo-menu_000.png" alt="">
+            </div>
+           <p class="col-md-12 col-sm-12 col-xs-12">
              CONTACT US
              <br><br>
              <span style='width:49%; display:inline-block; margin:0%;'>1518 Lancaster Point Way</span>
-             <span style='width:49%; display:inline-block; margin:0%;'>Tel (619) 498 8227</span>
+             <span style='width:49%; display:inline-block; margin:0%;'>Tel (1877) AMERIVACS</span>
              <br>
              San Diego, CA 92154
            </p>
@@ -114,9 +117,7 @@
               <span class='col-md-12 col-sm-12 col-xs-12 hov4 cursor' ng-click='toProduct("PARTS")' style='text-align:left;' > &#9658;REPLACEMENT PARTS</span>
             </div>
          </div>
-         <div class='foot-img col-md-8 col-sm-12 col-xs-12' style='padding-left:0%'>
-           <img src="img/home/logo-menu_000.png" alt="">
-         </div>
+
       </div>
     </div>
 

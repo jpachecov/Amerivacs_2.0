@@ -180,7 +180,8 @@ html{
 	/*width: 55%;*/
 	border-right: solid 2px;
 	margin-top: 4%;
-	padding-left: 4%;
+	margin-bottom: 20px;
+	padding: 0px 0px 40px 4%;
 
 }
 .info_foot p{
@@ -214,16 +215,13 @@ font-family: 'menu', sans-serif;
 }
 
 .foot-img{
-	/*width: 15%;*/
 	display: inline-block;
-	padding-top: 5%;
-	padding-top: 4%;
-    padding-bottom: 4%;
-    margin-left: 4%;
+	padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .foot-img img{
-	width: 25%;
+	width: 45%;
 }
 
 
