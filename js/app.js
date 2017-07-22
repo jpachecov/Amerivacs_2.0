@@ -1500,7 +1500,7 @@ app.run(function($rootScope){
 											'30"':'$26.00',
 											'35"':'$31.00',
 											'50"':'$39.00',
-												}
+												}, 'img':'img/products/SE.jpg'
 					},
 					{'op':'T-','des':'Teflon Set','prices':{
 											'20"':'$15.00',
@@ -1508,7 +1508,7 @@ app.run(function($rootScope){
 											'30"':'$1.00',
 											'35"':'$24.00',
 											'50"':'$31.00',
-												}
+												}, 'img':'img/products/T.jpg'
 					},
 					{'op':'PBK-','des':'Pressure Bar Kit','prices':{
 											'20"':'$18.00',
@@ -1516,7 +1516,7 @@ app.run(function($rootScope){
 											'30"':'$24.00',
 											'35"':'$28.00',
 											'50"':'$36.00',
-												}
+												}, 'img':'img/products/PBK.jpg'
 					},
 					{'op':'SBK-','des':'Seal Bar Kit (All of the above parts)','prices':{
 											'20"':'$47.00',
@@ -1524,7 +1524,7 @@ app.run(function($rootScope){
 											'30"':'$65.00',
 											'35"':'$75.00',
 											'50"':'$89.00',
-												}
+												}, 'img':'img/products/SBK.jpg'
 					},
 					{'op':'GR-','des':'AVN Gray Rubber Set','prices':{
 											'20"':'$0.00',
@@ -1532,7 +1532,7 @@ app.run(function($rootScope){
 											'30"':'$4.00',
 											'35"':'$16.00',
 											'50"':'$20.00',
-												}
+												}, 'img':'img/products/GR.jpg'
 					},
 
 
