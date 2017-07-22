@@ -388,6 +388,23 @@ app.run(function($rootScope){
 					'size': '20"',
 					'price': '$275',
 				},
+
+				{
+					'size': '25"',
+					'price': 'N/A',
+				},
+				{
+					'size': '30"',
+					'price': 'N/A',
+				},
+				{
+					'size': '35"',
+					'price': 'N/A',
+				},
+				{
+					'size': '50"',
+					'price': 'N/A',
+				},
 			],
 		},
 		{
@@ -397,6 +414,23 @@ app.run(function($rootScope){
 				{
 					'size': '20"',
 					'price': '$145',
+				},
+
+					{
+					'size': '25"',
+					'price': 'N/A',
+				},
+				{
+					'size': '30"',
+					'price': 'N/A',
+				},
+				{
+					'size': '35"',
+					'price': 'N/A',
+				},
+				{
+					'size': '50"',
+					'price': 'N/A',
 				},
 			],
 		}
