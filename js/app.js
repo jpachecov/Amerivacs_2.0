@@ -4,15 +4,15 @@ var app = angular.module('amerivacs', ['ngSanitize','ngAnimate','ngRoute']);
 // Rutas para la aplicacion
 app.config(['$routeProvider', function($routeProvider){
     $routeProvider
-    .when('/',{templateUrl: "inicio.html"})
-    .when('/home',{templateUrl: "inicio.html"})
-    .when('/about', {templateUrl:"about_us.html"})
-    .when('/products', {templateUrl:"productos.html"})
-    .when('/product',{templateUrl: "producto.html"})
-    .when('/contact',{templateUrl: "contacto.html"})
-    .when('/compare',{templateUrl: "compara.html"})
-    .when('/selector',{templateUrl: "ciber_selector.html"})
-    .otherwise({templateUrl:"compara.html"});
+    .when('/amerivacs',{templateUrl: "inicio.html"})
+    .when('/amerivacs/home',{templateUrl: "inicio.html"})
+    .when('/amerivacs/about', {templateUrl:"about_us.html"})
+    .when('/amerivacs/products', {templateUrl:"productos.html"})
+    .when('/amerivacs/product',{templateUrl: "producto.html"})
+    .when('/amerivacs/contact',{templateUrl: "contacto.html"})
+    .when('/amerivacs/compare',{templateUrl: "compara.html"})
+    .when('/amerivacs/selector',{templateUrl: "ciber_selector.html"})
+    .otherwise({templateUrl:"inicio.html"});
 
 }]);
 
