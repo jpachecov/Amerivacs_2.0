@@ -50,7 +50,7 @@
 											'25"':'$375',
 											'30"':'$700',
 											'35"':'$900',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'SS','des':'Stainless Steel Upgrade','prices':{
@@ -106,7 +106,7 @@
 											'25"':'$75',
 											'30"':'$75',
 											'35"':'$75',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'EC','des':'Additional Vacuum or Gas cycle (AVN only)','prices':{
@@ -154,7 +154,7 @@
 											'25"':'$985',
 											'30"':'$985',
 											'35"':'$985',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 				]]
@@ -226,7 +226,7 @@
 											'25"':'$375',
 											'30"':'$700',
 											'35"':'$900',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'SS','des':'Stainless Steel Upgrade','prices':{
@@ -282,7 +282,7 @@
 											'25"':'$75',
 											'30"':'$75',
 											'35"':'$75',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'EC','des':'Additional Vacuum or Gas cycle (AVN only)','prices':{
@@ -330,7 +330,7 @@
 											'25"':'$250',
 											'30"':'$250',
 											'35"':'$250',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 				]]
@@ -422,7 +422,7 @@
 											'25"':'$375',
 											'30"':'$700',
 											'35"':'$900',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'SS','des':'Stainless Steel Upgrade','prices':{
@@ -478,7 +478,7 @@
 											'25"':'$75',
 											'30"':'$75',
 											'35"':'$75',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'EC','des':'Additional Vacuum or Gas cycle (AVN only)','prices':{
@@ -526,7 +526,7 @@
 											'25"':'$250',
 											'30"':'$250',
 											'35"':'$250',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 				]]
@@ -534,7 +534,7 @@
 
 		{
 			'name':'CAVS',
-			'subtitulo':'RETRACTABLE NOZZLE VACUUM SEALER WITH GAS PURGE',
+			'subtitulo':'RETRACTABLE NOZZLE VACUUM SEALER',
 			'parrafo':
 				[	
 				'Expanding the abilities of the AVS model, the <strong>CAVS eliminates the need for additional equipment.</strong>  \
@@ -620,7 +620,7 @@
 											'25"':'$375',
 											'30"':'$700',
 											'35"':'$900',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'SS','des':'Stainless Steel Upgrade','prices':{
@@ -676,7 +676,7 @@
 											'25"':'$75',
 											'30"':'$75',
 											'35"':'$75',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'EC','des':'Additional Vacuum or Gas cycle (AVN only)','prices':{
@@ -724,7 +724,7 @@
 											'25"':'$250',
 											'30"':'$250',
 											'35"':'$250',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 				]]
@@ -805,7 +805,7 @@
 											'25"':'$375',
 											'30"':'$700',
 											'35"':'$900',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'VSS','des':'Vacuum Selector Switch, per position','prices':{
@@ -889,7 +889,7 @@
 											'25"':'$375',
 											'30"':'$700',
 											'35"':'$900',
-											'50"':'N.A',																														
+											'50"':'N/A',																														
 												}
 					},
 					{'op':'VSS','des':'Vacuum Selector Switch, per position','prices':{

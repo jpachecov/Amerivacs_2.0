@@ -599,7 +599,7 @@ app.run(function($rootScope){
 											'25"':'$375',
 											'30"':'*$700',
 											'35"':'*$900',
-											'50"':'N.A',
+											'50"':'N/A',
 												}
 					},
 					{'op':'SS','des':'Stainless Steel Upgrade','prices':{
@@ -655,7 +655,7 @@ app.run(function($rootScope){
 											'25"':'$75',
 											'30"':'$75',
 											'35"':'$75',
-											'50"':'N.A',
+											'50"':'N/A',
 												}
 					},
 					{'op':'EC','des':'Additional Vacuum or Gas cycle','prices':{
@@ -703,7 +703,7 @@ app.run(function($rootScope){
 											'25"':'$985',
 											'30"':'$985',
 											'35"':'$985',
-											'50"':'N.A',
+											'50"':'N/A',
 												}
 					},
 				]]
