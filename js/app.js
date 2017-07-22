@@ -329,7 +329,7 @@ app.run(function($rootScope){
 		},
 		{
 			'name':'PE',
-			'desc':'Ported Exhaust**',
+			'desc':'Ported Exhaust',
 			'sizes':[
 				{
 					'size': '20"',
@@ -726,7 +726,7 @@ app.run(function($rootScope){
 											'50"':'$1,995',
 												}
 					},
-					{'op':'PE','des':'Ported Exhaust**','prices':{
+					{'op':'PE','des':'Ported Exhaust','prices':{
 											'20"':'$220',
 											'25"':'$220',
 											'30"':'$220',
@@ -1009,7 +1009,7 @@ app.run(function($rootScope){
 											'30"':'$1,995',
 												}
 					},
-					{'op':'PE','des':'Ported Exhaust**','prices':{
+					{'op':'PE','des':'Ported Exhaust','prices':{
 											'20"':'$220',
 											'30"':'$220',
 												}
@@ -1153,7 +1153,7 @@ app.run(function($rootScope){
 											'30"':'$1,995',
 												}
 					},
-					{'op':'PE','des':'Ported Exhaust**','prices':{
+					{'op':'PE','des':'Ported Exhaust','prices':{
 											'20"':'$220',
 											'30"':'$220',
 												}
