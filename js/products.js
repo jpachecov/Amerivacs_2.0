@@ -658,7 +658,7 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 
 			// Obtemeos las partes
 			$scope.producto = {};
-			$scope.producto = {'name':'OPTIONS','subtitulo':'Accessories for vacuum sealers'};//= $scope.parts;
+			$scope.producto = {'name':'UPGRADES AND ACCESORIES','subtitulo':'Accessories for vacuum sealers'};//= $scope.parts;
 
 			
 
