@@ -494,7 +494,7 @@ ABOUT US
 }
 .ren6{
 	border-bottom: solid 1px black;
-	height: 33px;
+	height: 45px;
 }
 
 .pricing_table{
@@ -1555,4 +1555,10 @@ margin-top: 10px;
     position: absolute;
     top: 0px;
     border-radius: 0px;
+}
+
+
+.img-part{
+	display: block;
+	width: 80%;
 }
