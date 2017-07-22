@@ -104,25 +104,15 @@
 
          <div class='col-md-5 col-sm-6 col-xs-12'>
             
-            <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
-           <span class='col-md-4 col-sm-5 col-xs-6 hov4 cursor' ng-click='loadPage("compare")' style='text-align:left;'>&#9658;COMPARE OUR MODELS</span>
-           
-            <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
-           <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='loadPage("selector")' style='text-align:left;' > &#9658;VACUUM SEALER SELECTOR</span>
-
-
-           <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
-           <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='toProduct("AVN")' style='text-align:left;' > &#9658;AVN</span>
-
-           <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
-           <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='toProduct("AVS")' style='text-align:left;' > &#9658;AVS</span>
-
-           <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
-           <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='toProduct("CAVN")' style='text-align:left;' > &#9658;CAVN</span>
-
-           <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
-           <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='toProduct("PARTS")' style='text-align:left;' > &#9658;REPLACEMENT PARTS</span>
-
+            <div class='col-md-3 col-xs-3 col-sm-3' style='height:2px'></div>
+            <div class='col-md-9 col-xs-9 col-sm-6'>
+              <span class='col-md-12 col-sm-12 col-xs-12 hov4 cursor' ng-click='loadPage("compare")' style='text-align:left;'>&#9658;COMPARE OUR MODELS</span>
+              <span class='col-md-12 col-sm-12 col-xs-12 hov4 cursor' ng-click='loadPage("selector")' style='text-align:left;' > &#9658;VACUUM SEALER SELECTOR</span>
+              <span class='col-md-12 col-sm-12 col-xs-12 hov4 cursor' ng-click='toProduct("AVN")' style='text-align:left;' > &#9658;AVN</span>
+              <span class='col-md-12 col-sm-12 col-xs-12 hov4 cursor' ng-click='toProduct("AVS")' style='text-align:left;' > &#9658;AVS</span>
+              <span class='col-md-12 col-sm-12 col-xs-12 hov4 cursor' ng-click='toProduct("CAVN")' style='text-align:left;' > &#9658;CAVN</span>
+              <span class='col-md-12 col-sm-12 col-xs-12 hov4 cursor' ng-click='toProduct("PARTS")' style='text-align:left;' > &#9658;REPLACEMENT PARTS</span>
+            </div>
          </div>
          <div class='foot-img col-md-8 col-sm-12 col-xs-12' style='padding-left:0%'>
            <img src="img/home/logo-menu_000.png" alt="">
