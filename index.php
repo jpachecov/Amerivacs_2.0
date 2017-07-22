@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AmeriVacS</title>
 
-    <link rel="shortcut icon" type="image/png" href="amerivacs/img/logo_menu.png"/>
+    <link rel="shortcut icon" type="image/png" href="/img/logo_menu.png"/>
 
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -36,16 +36,16 @@
             -->
             </li>
             <li class='col-xs-2 col-sm-2 col-md-1'>
-              <a href="/amerivacs/contact">Contact</a> 
+              <a href="/contact">Contact</a> 
             </li>
             <li class='raya-derecha col-xs-3 col-sm-3 col-md-1'>
-              <a href="/amerivacs/about">About us</a>  
+              <a href="/about">About us</a>  
             </li>
             <li class='raya-derecha col-xs-3 col-sm-3 col-md-1' ng-mouseover="showMenu()" ng-mouseleave="hideMenu()">
-              <a href="/amerivacs/products">Products<span class='trian'>&#x25BC</span> </a>  
+              <a href="/products">Products<span class='trian'>&#x25BC</span> </a>  
             </li>
             <li class='raya-derecha col-xs-2 col-sm-3 col-md-1'>
-              <a href="/amerivacs/home">Home</a>  
+              <a href="/home">Home</a>  
             </li>
 
 
@@ -60,7 +60,7 @@
             <div class='col-md-12 col-sm-12 col-xs-12 show-menu' style='position:relative; z-index:4;'>
               <ul class='col-md-3 col-xs-12 col-sm-12' style="position:absolute; bottom:-120px; right:0px" ng-mouseover="showMenu()" ng-mouseleave="hideMenu()" style='padding:0%; float:right;'>
                 <li class='hover-2 boton col-md-9 col-sm-6 col-xs-6  r-bottom back-white2 nopadding txt-c' style='float:left'>
-                  <a class='font1' href="/amerivacs/product">All products</a>
+                  <a class='font1' href="/product">All products</a>
                 </li>
                 <li class='hover-2 boton col-md-9 col-sm-6 col-xs-6  r-bottom back-white2 nopadding txt-c' style='float:left'>
                   <a class='font1' href="/compare">Compare vacuum sealers</a>
