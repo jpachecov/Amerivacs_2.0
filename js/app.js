@@ -1506,7 +1506,7 @@ app.run(function($rootScope){
 		},
 
 		{
-			'name':'OPTIONS',
+			'name':'UPGRADES AND ACCESORIES',
 			'subtitulo':'Accesories for vacuum sealers',
 			'parrafo':'',
 		}
