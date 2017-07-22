@@ -378,6 +378,27 @@ app.run(function($rootScope){
 					'price': 'Not available',
 				},
 			],
+		},
+
+		{
+			'name':'SEAL BAR',
+			'desc':'Additional Seal Bar',
+			'sizes':[
+				{
+					'size': '20"',
+					'price': '$275',
+				},
+			],
+		},
+		{
+			'name':'VSS',
+			'desc':'Vacuum Selector Switch, per position',
+			'sizes':[
+				{
+					'size': '20"',
+					'price': '$145',
+				},
+			],
 		}
 	];
 
@@ -512,26 +533,7 @@ app.run(function($rootScope){
 				},
 			],
 		},
-		{
-			'name':'SEAL BAR',
-			'desc':'Additional Seal Bar',
-			'sizes':[
-				{
-					'size': '20"',
-					'price': '$275',
-				},
-			],
-		},
-		{
-			'name':'VSS',
-			'desc':'Vacuum Selector Switch, per position',
-			'sizes':[
-				{
-					'size': '20"',
-					'price': '$145',
-				},
-			],
-		},
+		
 
 
 	];
