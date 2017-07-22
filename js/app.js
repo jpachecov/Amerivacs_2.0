@@ -461,7 +461,7 @@ app.run(function($rootScope){
 					'size': '50"',
 					'price': '$39',
 				},
-			],
+			], 'img':'img/products/SE.jpg'
 		},
 		{
 			'name':'T-',
@@ -487,7 +487,7 @@ app.run(function($rootScope){
 					'size': '50"',
 					'price': '$31',
 				},
-			],
+			],'img':'img/products/T.jpg'
 		},
 		{
 			'name':'PBK-',
@@ -513,7 +513,7 @@ app.run(function($rootScope){
 					'size': '50"',
 					'price': '$36',
 				},
-			],
+			],'img':'img/products/PBK.jpg'
 		},
 		{
 			'name':'SBK-',
@@ -539,7 +539,7 @@ app.run(function($rootScope){
 					'size': '50"',
 					'price': '$89',
 				},
-			],
+			],'img':'img/products/SBK.jpg'
 		},
 		{
 			'name':'GR-',
@@ -565,7 +565,7 @@ app.run(function($rootScope){
 					'size': '50"',
 					'price': '$20',
 				},
-			],
+			],'img':'img/products/GR.jpg'
 		},
 		
 
