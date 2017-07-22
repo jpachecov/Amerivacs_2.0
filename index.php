@@ -38,11 +38,11 @@
             <li class='col-xs-2 col-sm-2 col-md-1'>
               <a href="/amerivacs/contact">Contact</a> 
             </li>
-            <li class='raya-derecha col-xs-3 col-sm-3 col-md-1' ng-mouseover="showMenu()" ng-mouseleave="hideMenu()">
-              <a href="/amerivacs/products">Products<spana class='trian'>&#x25BC</span> </a>  
-            </li>
             <li class='raya-derecha col-xs-3 col-sm-3 col-md-1'>
               <a href="/amerivacs/about">About us</a>  
+            </li>
+            <li class='raya-derecha col-xs-3 col-sm-3 col-md-1' ng-mouseover="showMenu()" ng-mouseleave="hideMenu()">
+              <a href="/amerivacs/products">Products<span class='trian'>&#x25BC</span> </a>  
             </li>
             <li class='raya-derecha col-xs-2 col-sm-3 col-md-1'>
               <a href="/amerivacs/home">Home</a>  
@@ -58,12 +58,15 @@
           </li>
           <!-- Columna para los botones -->
             <div class='col-md-12 col-sm-12 col-xs-12 show-menu' style='position:relative; z-index:4;'>
-              <ul class='col-md-3 col-xs-12 col-sm-12' style="position:absolute; bottom:-70px; right:0px" ng-mouseover="showMenu()" ng-mouseleave="hideMenu()" style='padding:0%; float:right;'>
+              <ul class='col-md-3 col-xs-12 col-sm-12' style="position:absolute; bottom:-120px; right:0px" ng-mouseover="showMenu()" ng-mouseleave="hideMenu()" style='padding:0%; float:right;'>
                 <li class='hover-2 boton col-md-9 col-sm-6 col-xs-6  r-bottom back-white2 nopadding txt-c' style='float:left'>
-                  <a class='font1' href="/compare">Compare</a>
+                  <a class='font1' href="/amerivacs/product">All products</a>
+                </li>
+                <li class='hover-2 boton col-md-9 col-sm-6 col-xs-6  r-bottom back-white2 nopadding txt-c' style='float:left'>
+                  <a class='font1' href="/compare">Compare vacuum sealers</a>
                 </li>
                 <li class='hover-2 boton col-md-9 col-sm-6 col-xs-6 back-white2 nopadding txt-c' style='float:left'>
-                  <a class='font1' href="/selector">Cyber Selector</a>
+                  <a class='font1' href="/selector">Vacuum sealer selector</a>
                 </li>      
               </ul>
             </div>
@@ -94,28 +97,32 @@
          </div>
          <div class='submenu col-md-5 col-xs-12 col-sm-6'>
            <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("home")'>HOME</span>
-           <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("about_us")'>ABOUT US</span>
            <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("products")'>PRODUCTS</span>
+           <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("about_us")'>ABOUT US</span>
            <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("contact")'>CONTACT US</span>
          </div>
 
          <div class='col-md-5 col-sm-6 col-xs-12'>
             
-            <div class='col-md-6 col-xs-6 col-sm-6' style='height:2px'></div>
+            <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
            <span class='col-md-4 col-sm-5 col-xs-6 hov4 cursor' ng-click='loadPage("compare")' style='text-align:left;'>&#9658;COMPARE OUR MODELS</span>
            
-            <div class='col-md-6 col-xs-6 col-sm-6' style='height:2px'></div>
+            <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
            <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='loadPage("selector")' style='text-align:left;' > &#9658;VACUUM SEALER SELECTOR</span>
 
 
-           <div class='col-md-6 col-xs-6 col-sm-6' style='height:2px'></div>
+           <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
            <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='toProduct("AVN")' style='text-align:left;' > &#9658;AVN</span>
-           <div class='col-md-6 col-xs-6 col-sm-6' style='height:2px'></div>
+
+           <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
            <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='toProduct("AVS")' style='text-align:left;' > &#9658;AVS</span>
-           <div class='col-md-6 col-xs-6 col-sm-6' style='height:2px'></div>
+
+           <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
            <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='toProduct("CAVN")' style='text-align:left;' > &#9658;CAVN</span>
-           <div class='col-md-6 col-xs-6 col-sm-6' style='height:2px'></div>
+
+           <div class='col-md-4 col-xs-6 col-sm-6' style='height:2px'></div>
            <span class='col-md-6 col-sm-6 col-xs-6 hov4 cursor' ng-click='toProduct("PARTS")' style='text-align:left;' > &#9658;REPLACEMENT PARTS</span>
+
          </div>
          <div class='foot-img col-md-8 col-sm-12 col-xs-12' style='padding-left:0%'>
            <img src="img/home/logo-menu_000.png" alt="">

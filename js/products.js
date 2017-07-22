@@ -325,7 +325,7 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 
 	$scope.accesories = [
 		{
-			'nombre' : 'OPTIONS',
+			'nombre' : 'UPGRADES AND ACCESORIES',
 			'descrip' : '',
 			'resumen_p' : '', 
 			'img' : ''
