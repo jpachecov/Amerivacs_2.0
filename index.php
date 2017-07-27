@@ -10,12 +10,14 @@
     <title>AmeriVacS</title>
 
     <link rel="shortcut icon" type="image/png" href="/img/logo_menu.png"/>
-
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body  onload="javascript:cambiarPestanna(pestanas,pestana1);" >
+   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <div ng-controller='controlador'>
 
 
@@ -36,16 +38,16 @@
             -->
             </li>
             <li class='col-xs-2 col-sm-2 col-md-1'>
-              <a href="/contact">Contact</a> 
+              <a href="/amerivacs/contact">Contact</a> 
             </li>
             <li class='raya-derecha col-xs-3 col-sm-3 col-md-1'>
-              <a href="/about">About us</a>  
+              <a href="/amerivacs/about">About us</a>  
             </li>
             <li class='raya-derecha col-xs-3 col-sm-3 col-md-1' ng-mouseover="showMenu()" ng-mouseleave="hideMenu()">
-              <a href="/products">Products<span class='trian'>&#x25BC</span> </a>  
+              <a href="/amerivacs/products">Products<span class='trian'>&#x25BC</span> </a>  
             </li>
             <li class='raya-derecha col-xs-2 col-sm-3 col-md-1'>
-              <a href="/home">Home</a>  
+              <a href="/amerivacs/home">Home</a>  
             </li>
 
 
@@ -135,6 +137,8 @@
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.6/angular-sanitize.js"></script>
     <script src="js/sizeChecker.js"></script>
+    <script type="text/javascript" src="js/cambiarPestanna.js"></script>
+        
     <!--<script src="http://sdks.shopifycdn.com/js-buy-sdk/latest/shopify-buy.polyfilled.globals.min.js"></script>-->
     <script src="js/app.js"></script>
     <script src="js/products.js"></script>
