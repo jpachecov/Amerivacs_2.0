@@ -753,7 +753,7 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 		console.log('showing menu');
 		//if($scope.showing)
 		$('.show-menu').velocity({
-			translateY: 0 + 'px',
+			translateY: 30 + 'px',
 		},{
 			duration: 180,
 			easing: "easeInLine",
@@ -764,7 +764,7 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 	}
 	$scope.hideMenu =  function(){
 		$('.show-menu').velocity({
-			translateY: -120 + 'px',
+			translateY: -160 + 'px',
 		},{
 			duration: 80,
 			easing: "easeInLine",
@@ -898,5 +898,19 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 
 
 $scope.getProduct('AVN');
+
+
+
+
+$scope.cambiaPestana = function(container, content){
+
+	// Pestañas
+	$("#lista").children().removeClass("selected");
+	$("#" + content).addClass("selected");
+
+	// Contenido
+	$("#" + container).children().removeClass("selected");
+	$("#c" + content).addClass("selected");
+}
 
 });

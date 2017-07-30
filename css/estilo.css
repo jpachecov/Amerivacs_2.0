@@ -1,11 +1,10 @@
 #pestanas {
-    float: top;
     font-size: 2ex;
-    font-weight: bold;
+    padding: 25px 0px 0px 30px;
 }
 
 #pestanas ul{
-    margin-left: -40px;    
+    list-style: none;
 }
 
 #pestanas li{
@@ -15,8 +14,12 @@
     margin: 0px 2px -2px -0px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border: 1px solid bisque;
-    padding: 0px 20px 0px 20px;
+    border: 1px solid #999;
+    padding: 10px 10px;
+}
+
+#pestanas li:before {
+    display: none;
 }
 
 #pestanas a:link{
@@ -29,4 +32,47 @@
     border-radius: 5px;
     border-top-left-radius: 0px;
     width: 95%;
+}
+
+#contenidopestanas > div {
+    display: none;
+}
+
+#contenidopestanas .selected {
+    display: block !important;
+}
+
+#lista li a {
+    font-family: 'menu', sans-serif;
+    color: #0A1346;
+}
+
+#lista li a:focus {
+    outline: none;
+}
+
+#lista .selected {
+    background-color: #0A1346;
+}
+#lista .selected a {
+    color: white;
+}
+
+
+@media (max-width: 720px) {
+
+    #pestanas {
+        padding: 0px;
+    }
+    #lista {
+        display: inline-flex;
+    }
+
+    #lista li {
+        width:25%;
+    }
+    #lista li a {
+        display: inline-block;
+        font-size: 10px;
+    }
 }

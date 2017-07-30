@@ -1,60 +1,52 @@
 <div class='container nopadding' style='margin:0%; width:100%'>
 	<div class='lista-productos col-md-12 col-xs-12 col-sm-12 nopadding'>
-	    <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVN' ng-click='getProduct("AVN")'>
-	      <span>AVN</span>
-	    </div>
-	    <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVS' ng-click='getProduct("AVS")'>
-	      <span>AVS</span>
-	    </div>
-	    <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='CAVN' ng-click='getProduct("CAVN")'>
-	      <span>CAVN</span>
-	    </div>
-	    <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='CAVS' ng-click='getProduct("CAVS")'>
-	      <span>CAVS</span>
-	    </div>
-	    <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVC' ng-click='getProduct("AVC")'>
-	      <span>AVC</span>
-	    </div>
-	    <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVCG' ng-click='getProduct("AVCG")'>
-	      <span>AVCG</span>
-	    </div>
-	    <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVP' ng-click='getProduct("AVP")'>
-	      <span>AVP</span>
-	    </div>
-	    <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='PARTS' ng-click='getProduct("PARTS")'>
-	      <span>PARTS</span>
-	    </div>
-	    <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='OPTIONS' ng-click='getProduct("OPTIONS")'>
-          <span style="font-size:13px">UPGRADES & ACCESSORIES</span>
-	    </div>
-	</div>
+   <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVN' ng-click='getProduct("AVN")'>
+     <span>AVN</span>
+   </div>
+   <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVS' ng-click='getProduct("AVS")'>
+     <span>AVS</span>
+   </div>
+   <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='CAVN' ng-click='getProduct("CAVN")'>
+     <span>CAVN</span>
+   </div>
+   <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='CAVS' ng-click='getProduct("CAVS")'>
+     <span>CAVS</span>
+   </div>
+   <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVC' ng-click='getProduct("AVC")'>
+     <span>AVC</span>
+   </div>
+   <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVCG' ng-click='getProduct("AVCG")'>
+     <span>AVCG</span>
+   </div>
+   <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='AVP' ng-click='getProduct("AVP")'>
+     <span>AVP</span>
+   </div>
+   <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='PARTS' ng-click='getProduct("PARTS")'>
+     <span>PARTS</span>
+   </div>
+   <div class='producto-menu col-md-1 col-xs-3 col-sm-2 bor-d' id='OPTIONS' ng-click='getProduct("OPTIONS")'>
+    <span style="font-size:13px">UPGRADES & ACCESSORIES</span>
+  </div>
+</div>
 </div>
 <div class="col-md-12 col-sm-12 col-xs-12" style="padding: 10px 0px">
 
-<div class='content container col-md-12' style='padding-left:5%; margin-top:4%; padding-bottom:5%'>
-	<div class='col-md-12 col-sm-12 nopadding'>
-		<div class='col-md-12 col-sm-12 col-xs-12'>
-			<div class='col-md-7 col-sm-9 col-xs-12 nopadding'>
-				<div class='prod_name'>
-					<span>{{producto.name}}</span>
-				</div>
-				<div class='prod_des col-md-6'>
-					<span>{{producto.subtitulo}}</span>
-				</div>				
-			</div>
-			<div class='col-md-5 col-sm-12 col-xs-12' style='text-align:right; margin-top:5%; margin-bottom:5%' ng-show='isVacuum'>
+  <div class='content container col-md-12' style='padding-left:5%; margin-top:4%; padding-bottom:5%'>
+   <div class='col-md-12 col-sm-12 nopadding'>
+    <div class='col-md-12 col-sm-12 col-xs-12'>
+     <div class='col-md-7 col-sm-9 col-xs-12 nopadding'>
+      <div class='prod_name'>
+       <span>{{producto.name}}</span>
+     </div>
+     <div class='prod_des col-md-6'>
+       <span>{{producto.subtitulo}}</span>
+     </div>				
+   </div>
+   <div class='col-md-5 col-sm-12 col-xs-12' style='text-align:right; margin-top:5%; margin-bottom:5%' ng-show='isVacuum'>
 
-				<div class='col-md-6 col-sm-6 col-xs-10 nopadding' style='margin-bottom:10px;'>
-					<img src="img/BOTON-1_000.png" class='col-md-12 col-sm-12 col-xs-12 cursor' ng-click='toCompare(producto.name)'>
-				</div>
-
-				<div class='col-md-6 col-sm-6 col-xs-10 nopadding'>
-					<!--<a href="http://catalog.amerivacs.com/browseGroup.cfm" target="_blank">
-						<img src="img/BOTON-2_000.png" class='col-md-12 col-sm-12 col-xs-12 cursor' ng-click="showCartButtonn()">
-
-					</a>-->
-                          
-				</div>
+    <div class='col-md-6 col-sm-6 col-xs-10 nopadding' style='margin-bottom:10px;'>
+     <img src="img/BOTON-1_000.png" class='col-md-12 col-sm-12 col-xs-12 cursor' ng-click='toCompare(producto.name)'>
+   </div>
 			</div>
 
 		</div>
@@ -90,601 +82,490 @@
 				</div>
 			</div>
 
-    
-			<!--<img src="{{producto.src}}" style='margin-top:15%;' class='col-md-12 col-sm-12 col-xs-12' ng-show='isVacuum'>
-              -->
+    </div>
+  </div>
+</div>
 
-    
+<div id='product-component-322651ccccd' class="col-md-12 col-xs-12 col-sm-12" ng-show="isVacuum"></div>
+<script type="text/javascript">
+
+  (function () {
+    var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+    if (window.ShopifyBuy) {
+      if (window.ShopifyBuy.UI) {
+        ShopifyBuyInit();
+      } else {
+        loadScript();
+      }
+    } else {
+      loadScript();
+    }
+
+    function loadScript() {
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = scriptURL;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+      script.onload = ShopifyBuyInit;
+    }
+
+    function ShopifyBuyInit() {
+      var client = ShopifyBuy.buildClient({
+        domain: 'amerivacs-manufacturing.myshopify.com',
+        apiKey: '3b0ecda9533ce634f928da9b5ddaf811',
+        appId: '6',
+      });
+
+      ShopifyBuy.UI.onReady(client).then(function (ui) {
+        ui.createComponent('product', {
+          id: [9644244105],
+          node: document.getElementById('product-component-322651ccccd'),
+          moneyFormat: '%24%7B%7Bamount%7D%7D',
+          options: {
+            "product": {
+              "variantId": "all",
+              "width": "240px",
+              "contents": {
+                "imgWithCarousel": false,
+                "variantTitle": false,
+                "description": false,
+                "buttonWithQuantity": false,
+                "quantity": false
+              },
+              "styles": {
+                "product": {
+                  "@media (min-width: 601px)": {
+                    "max-width": "100%",
+                    "margin-left": "0",
+                    "margin-bottom": "50px"
+                  }
+                },
+                "button": {
+                  "background-color": "#070b81",
+                  ":hover": {
+                    "background-color": "#0c13db"
+                  },
+                  ":focus": {
+                    "background-color": "#0c13db"
+                  }
+                },
+                "compareAt": {
+                  "font-size": "12px"
+                }
+              }
+            },
+            "cart": {
+              "contents": {
+                "button": true
+              },
+              "text": {
+                "notice": "Handling, Shipping and Applicable Taxes are added at checkout."
+              },
+              "styles": {
+                "button": {
+                  "background-color": "#070b81",
+                  ":hover": {
+                    "background-color": "#0c13db"
+                  },
+                  ":focus": {
+                    "background-color": "#0c13db"
+                  }
+                },
+                "footer": {
+                  "background-color": "#ffffff"
+                }
+              }
+            },
+            "modalProduct": {
+              "contents": {
+                "img": false,
+                "imgWithCarousel": true,
+                "variantTitle": false,
+                "buttonWithQuantity": true,
+                "button": false,
+                "quantity": false
+              },
+              "styles": {
+                "product": {
+                  "@media (min-width: 601px)": {
+                    "max-width": "100%",
+                    "margin-left": "0px",
+                    "margin-bottom": "0px"
+                  }
+                },
+                "button": {
+                  "background-color": "#070b81",
+                  ":hover": {
+                    "background-color": "#0c13db"
+                  },
+                  ":focus": {
+                    "background-color": "#0c13db"
+                  }
+                }
+              }
+            },
+            "toggle": {
+              "styles": {
+                "toggle": {
+                  "background-color": "#070b81",
+                  ":hover": {
+                    "background-color": "#0c13db"
+                  },
+                  ":focus": {
+                    "background-color": "#0c13db"
+                  }
+                },
+                "count": {
+                  "color": "#ffffff",
+                  ":hover": {
+                    "color": "#ffffff"
+                  }
+                },
+                "iconPath": {
+                  "fill": "#ffffff"
+                }
+              }
+            },
+            "productSet": {
+             "styles": {
+              "products": {
+                "@media (min-width: 601px)": {
+                  "margin-left": "-20px"
+                }
+              }
+            }
+          }
+        }
+      });
+});
+}
+})();
+</script>
+
+
+</div>
+</div>
+
+
+</div>
+<!-- Aqui empiezan las pestania -->
+<div>
+  <div id="pestanas" class="col-md-12 col-sm-12 col-xs-12" ng-show="isVacuum">
+    <ul id="lista" class="col-md-12 col-sm-12 col-xs-12">
+      <li id="pestana1" class="selected" ng-click='cambiaPestana("contenidopestanas", "pestana1")'>
+        <a href='' >UPGRADES & ACCESSORIES</a></li>
+        <li id="pestana2" ng-click='cambiaPestana("contenidopestanas", "pestana2")'>
+          <a href=''>SPECIFICATIONS</a></li>
+          <li id="pestana3" ng-click='cambiaPestana("contenidopestanas", "pestana3")'>
+            <a href=''>WARRANTY</a></li>
+            <li id="pestana4" ng-click='cambiaPestana("contenidopestanas", "pestana4")'>
+              <a href=''>1-WEEK TRIAL</a></li>
+            </ul>
+          </div>
+
+          <div id="contenidopestanas" class="col-md-12 col-sm-12 col-xs-12" ng-show="isVacuum">
+            <div id="cpestana1" class="col-md-12 col-sm-12 col-xs-12 selected">
+              <!-- Upgrades and accesories -->
+              <div class='col-md-12 tabla-p' style='display:table' ng-show="isVacuum">
+                <div class='col-md-12 nopadding'>
+                  <div class='col-md-12 mb-2 nopadding' style='margin-top:1%; margin-bottom:2%;'>
+                    <span class='tab-name'>Upgrades and accesories</span>
+                  </div>
+                  <div class='col-md-12 nopadding' style='margin-bottom:10px;'>
+                    <div class='col-md-1 col-xs-4 nopadding'>
+                      <span class='blue-c col-xs-12'>Options</span>
+                    </div>      
+                    <div class='col-md-5 col-sm-6 col-xs-8 bord-l' style='text-align:center;'>
+                      <span class='blue-c'>Info</span>
+                    </div>        
+                    <div class='col-md-1 col-sm-2 col-xs-2 blue-c bord-l' ng-repeat='x in producto.options[0]'>
+                      <span class=''>{{x}}</span>
+                    </div>
+                  </div>
+                </div>
+                <div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t rengl' ng-repeat='op in producto.options[1]'>
+                  <div class='col-md-2 col-sm-4 col-xs-3 nopadding'>
+                    <span><strong>{{op.op}}</strong></span>
+                  </div>
+                  <div class='col-md-4 col-sm-4 col-xs-9 nopadding'>
+                    <span>{{op.des}}</span>
+                  </div>
+                  <div class='col-md-1 col-xs-2' ng-repeat='y in op.prices'>
+                    <span>{{y}}</span>
+                  </div>      
+                </div>
+
+              </div>
+
+
+
+              <div class='col-md-12 col-sm-12 col-xs-12 nopadding' ng-show='isVacuum'>
+                <span class='col-md-11 col-sm-11 col-xs-11' style='margin-top:20px; text-align:right;'>N/A - Not available</span>
+                <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>* 220 Volt A.C. conversion included.</span>
+                <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>** $15 Handling fee per Stand.</span>
+
+              </div>
+
+
+              <!-- FIN Upgrades and accesories -->
+
+
+            </div>
+            <div id="cpestana2" class="col-md-12 col-sm-12 col-xs-12">
+              <!--  TABLE SPECIFICATIONS -->
+              <div class='col-md-12 col-xs-12 col-sm-12 tabla-p' ng-show='isVacuum'>
+                <div class='col-md-12 col-sm-12 col-xs-12 nopadding mb-1'>
+                  <span class='tab-name'>Specifications</span>
+                </div>
+                <div class='col-md-6 nopadding reen' style='margin:0%;' ng-repeat='sp in producto.specs'>
+                  <div class='col-md-6 col-sm-6 col-xs-6 nopadding ren6'>
+                    <span><strong>{{sp.spec}}</strong></span>
+                  </div>
+                  <div class='col-md-6 col-sm-6 col-xs-6 txt-r ren6'>
+                    <span>{{sp.val}}</span>
+                  </div>          
+                </div>
               </div>
             </div>
+            <div id="cpestana3" class="col-md-12 col-sm-12 col-xs-12">
+              <p>
+                All AmeriVacS Vacuum Sealers are warranted for two (2) full years from date of delivery against electrical and mechanical defects, excluding normal wear items such as Heating Elements, Element Posts, Teflon, Pressure Bar Pads, Gray/Black Rubbers and Seal Gaskets. 
+              </p>
+              <p>
+                The warranty is voided if the machine is damaged due to improper or negligent use and/or unauthorized repairs. Further, this limited warranty does not cover any Acts of God such as fire, hurricanes, flood and tornadoes.  Any defective machine under warranty that is returned freight prepaid will, at our option, be repaired or replaced by AmeriVacS, at no charge.
+              </p> 
+              <p>
+                If you have any questions regarding this warranty, please call us at 1-877-AMERIVACS.
+              </p>
             </div>
-                        
-                        <div id='product-component-322651ccccd' class="col-md-12 col-xs-12 col-sm-12" ng-show="isVacuum"></div>
-<script type="text/javascript">
-/*<![CDATA[*/
- 
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
- 
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
- 
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'amerivacs-manufacturing.myshopify.com',
-      apiKey: '3b0ecda9533ce634f928da9b5ddaf811',
-      appId: '6',
-    });
- 
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [9644244105],
-        node: document.getElementById('product-component-322651ccccd'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "variantId": "all",
-    "width": "240px",
-    "contents": {
-      "imgWithCarousel": false,
-      "variantTitle": false,
-      "description": false,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        }
-      },
-      "button": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      },
-      "compareAt": {
-        "font-size": "12px"
-      }
-    }
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "text": {
-      "notice": "Handling, Shipping and Applicable Taxes are added at checkout."
-    },
-    "styles": {
-      "button": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      },
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      }
-    }
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      },
-      "count": {
-        "color": "#ffffff",
-        ":hover": {
-          "color": "#ffffff"
-        }
-      },
-      "iconPath": {
-        "fill": "#ffffff"
-      }
-    }
-  },
-  "productSet": {
-   "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
-}
-      });
-    });
-  }
-})();
-/*]]>*/
-</script>
-                  
-                  
-</div>
-		</div>
-
-     
-	</div>
-<!-- Aqui empiezan las pestania -->
-
-        <div >
-            
-            <div id="pestanas">
-                <ul id=lista>
-                    <li id="pestana1">
-                    <a href='javascript:cambiarPestanna(pestanas,pestana1);'>UPGRADES & ACCESSORIES</a></li>
-                    <li id="pestana2">
-                    <a href='javascript:cambiarPestanna(pestanas,pestana2);'>SPECIFICATIONS</a></li>
-                    <li id="pestana3">
-                    <a href='javascript:cambiarPestanna(pestanas,pestana3);'>WARRANTY</a></li>
-                    <li id="pestana4">
-                    <a href='javascript:cambiarPestanna(pestanas,pestana4);'>1-WEEK TRIAL</a></li>
-                </ul>
+            <div id="cpestana4" class="col-md-12 col-sm-12 col-xs-12">
+              <p>AmeriVacS conveniently offers a 1-week trial period for evaluation. To find out more information, please call us at 1-877-AMERIVACS </p>
             </div>
-            
-            
-       
-            <div id="contenidopestanas">
-                <div id="cpestana1">
-
-  <!-- Upgrades and accesories -->
-                        <div class='col-md-12 tabla-p' style='display:table' ng-show="isVacuum">
-                          <div class='col-md-12 nopadding'>
-                            <div class='col-md-12 mb-2 nopadding' style='margin-top:1%; margin-bottom:2%;'>
-                              <span class='tab-name'>Upgrades and accesories</span>
-                            </div>
-                            <div class='col-md-12 nopadding' style='margin-bottom:10px;'>
-                              <div class='col-md-1 col-xs-4 nopadding'>
-                                <span class='blue-c col-xs-12'>Options</span>
-                              </div>      
-                              <div class='col-md-5 col-sm-6 col-xs-8 bord-l' style='text-align:center;'>
-                                <span class='blue-c'>Info</span>
-                              </div>        
-                              <div class='col-md-1 col-sm-2 col-xs-2 blue-c bord-l' ng-repeat='x in producto.options[0]'>
-                                <span class=''>{{x}}</span>
-                              </div>
-                            </div>
-                          </div>
-                          <div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t rengl' ng-repeat='op in producto.options[1]'>
-                            <div class='col-md-2 col-sm-4 col-xs-3 nopadding'>
-                              <span><strong>{{op.op}}</strong></span>
-                            </div>
-                            <div class='col-md-4 col-sm-4 col-xs-9 nopadding'>
-                              <span>{{op.des}}</span>
-                            </div>
-                            <div class='col-md-1 col-xs-2' ng-repeat='y in op.prices'>
-                              <span>{{y}}</span>
-                            </div>      
-                          </div>
-                        
-                        </div>
-
-
-                        
-                      <div class='col-md-12 col-sm-12 col-xs-12 nopadding' ng-show='isVacuum'>
-                        <span class='col-md-11 col-sm-11 col-xs-11' style='margin-top:20px; text-align:right;'>N/A - Not available</span>
-                        <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>* 220 Volt A.C. conversion included.</span>
-                        <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>** $15 Handling fee per Stand.</span>
-
-                      </div>
-
-
-<!-- FIN Upgrades and accesories -->
-
-
-                </div>
-                <div id="cpestana2">
-        <!--  TABLE SPECIFICATIONS -->
-                    <div class='col-md-12 col-xs-12 col-sm-12 tabla-p' ng-show='isVacuum'>
-                      <div class='col-md-12 col-sm-12 col-xs-12 nopadding mb-1'>
-                        <span class='tab-name'>Specifications</span>
-                      </div>
-                      <div class='col-md-6 nopadding' style='margin:0%;' ng-repeat='sp in producto.specs'>
-                        <div class='col-md-5 col-sm-5 col-xs-12 nopadding ren6'>
-                          <span><strong>{{sp.spec}}</strong></span>
-                        </div>
-                        <div class='col-md-6 col-sm-6 col-xs-12 txt-r ren6'>
-                          <span>{{sp.val}}</span>
-                        </div>          
-                      </div>
-                    </div>
-                </div>
-                <div id="cpestana3">
-                    <p>
-                      All AmeriVacS Vacuum Sealers are warranted for two (2) full years from date of delivery against electrical and mechanical defects, excluding normal wear items such as Heating Elements, Element Posts, Teflon, Pressure Bar Pads, Gray/Black Rubbers and Seal Gaskets. 
-                    </p>
-                    <p>
-                      The warranty is voided if the machine is damaged due to improper or negligent use and/or unauthorized repairs. Further, this limited warranty does not cover any Acts of God such as fire, hurricanes, flood and tornadoes.  Any defective machine under warranty that is returned freight prepaid will, at our option, be repaired or replaced by AmeriVacS, at no charge.
-                    </p> 
-                     <p>
-                      If you have any questions regarding this warranty, please call us at 1-877-AMERIVACS.
-                    </p>
-                </div>
-                <div id="cpestana4">
-                  <p>AmeriVacS conveniently offers a 1-week trial period for evaluation. To find out more information, please call us at 1-877-AMERIVACS </p>
-                </div>
-            </div>
+          </div>
         </div>
 
 
-
-
-	
-
+        <div class='partes col-md-12 col-sm-12 col-xs-12 tabla-p' style='display:table' ng-show="isParts">
 
 
 
-<!--
-	<div class='partes col-md-12 col-sm-12 col-xs-12 tabla-p' style='display:table' ng-show="isParts">
-		
-		<label class='search col-md-3 col-sm-3-col-xs-3'>Search: <input ng-model="searchText_2"></label>
-		<div class='col-md-12 nopadding rengl'>
-
-			<div class='col-md-3 col-sm-3 col-xs-3 mb-2 nopadding'>
-				<span class='tab-name'>Part</span>
-			</div>
-
-			<div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
-				<span class='tab-name'>Info</span>
-			</div>
-
-			<div class='col-md-2 col-sm-2 col-xs-3 mb-2 nopadding'>
-				<span class='tab-name' style ='padding-left:5%'>Size</span>
-			</div>
-			<div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
-				<span class='tab-name'>Price</span>
-			</div>		
-		</div>
-
-		<div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t reenglon rengl' ng-repeat='part in partes | filter: searchText_2'>
-			<div class='col-md-2 col-sm-2 col-xs-2 nopadding'>
-				<span><strong>{{part.id}}</strong></span>
-			</div>
-			<div class='col-md-3 col-sm-3 col-xs-3'>
-				<span class='col-md-12 col-sm-12 col-xs-12'>{{part.subti}}</span>
-			</div>
-			<div class='col-md-2 col-sm-2 col-xs-2'>
-				<span class='col-md-12 col-sm-12 col-xs-12'>{{part.size}}</span>
-			</div>
-			<div class='col-md-2 col-sm-2 col-xs-2'>
-				<span class='col-md-12 col-sm-12 col-xs-12'>{{part.price}}</span>
-			</div>	
-			<img src='img/BOTON-2_000.png' class='col-md-2 col-sm-3 col-xs-3 carrito-boton-1 cursor' ng-click='handler.addItem(part.id, part.size, part.price)' ng-show="showCartButton"></img>			
-		</div>
-		
-	</div>
--->
 
 
-	<div class='partes col-md-12 col-sm-12 col-xs-12 tabla-p' style='display:table' ng-show="isParts">
+         <div class="col-md-9 col-sm-9 col-xs-12">
 
 
-              
-      
+          <label class='search col-md-3 col-sm-3-col-xs-3'>Search: <input ng-model="searchText_2"></label>
+          <div class='col-md-12 nopadding rengl'>
 
-	<div class="col-md-9 col-sm-9 col-xs-12">
-	  
-	  
-		<label class='search col-md-3 col-sm-3-col-xs-3'>Search: <input ng-model="searchText_2"></label>
-		<div class='col-md-12 nopadding rengl'>
-
-			<div class='col-md-3 col-sm-3 col-xs-3 mb-2 nopadding'>
-				<span class='tab-name'>Part</span>
-			</div>
-
-			<div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
-				<span class='tab-name'>Info</span>
-			</div>
-
-			<div class='col-md-2 col-sm-2 col-xs-3 mb-2 nopadding'>
-				<span class='tab-name' style ='padding-left:5%'>Size</span>
-			</div>
-			<div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
-				<span class='tab-name'>Price</span>
-			</div>		
-		</div>
-
-		<div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t reenglon rengl' ng-repeat='part in PARTS | filter: searchText_2'>
-			
-			
-        <div class="col-md-5 col-sm-5 col-xs-5">
-          <div class='col-md-6 col-sm-6 col-xs-6 nopadding'>
-            <span><strong>{{part.name}}</strong></span>
+           <div class='col-md-3 col-sm-3 col-xs-3 mb-2 nopadding'>
+            <span class='tab-name'>Part</span>
           </div>
-          <div class='col-md-6 col-sm-6 col-xs-6'>
-            <span class='col-md-12 col-sm-12 col-xs-12'>{{part.desc}}</span>
+
+          <div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
+            <span class='tab-name'>Info</span>
           </div>
-          
+
+          <div class='col-md-2 col-sm-2 col-xs-3 mb-2 nopadding'>
+            <span class='tab-name' style ='padding-left:5%'>Size</span>
+          </div>
+          <div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
+            <span class='tab-name'>Price</span>
+          </div>		
         </div>
-        <div class="col-md-5 col-sm-5 col-xs-5">
-          <div class='col-md-12 col-sm-12 col-xs-12 nopadding' ng-repeat='size in part.sizes'>
-            <div class='col-md-5 col-sm-5 col-xs-5 nopadding'>
-              <span class='col-md-12 col-sm-12 col-xs-12'>{{size.size}}</span>
-            </div>
+
+        <div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t reenglon rengl' ng-repeat='part in PARTS | filter: searchText_2'>
+
+
+          <div class="col-md-5 col-sm-5 col-xs-5">
             <div class='col-md-6 col-sm-6 col-xs-6 nopadding'>
-              <span class='col-md-12 col-sm-12 col-xs-12'>{{size.price}}</span>
-            </div>  
+              <span><strong>{{part.name}}</strong></span>
+            </div>
+            <div class='col-md-6 col-sm-6 col-xs-6'>
+              <span class='col-md-12 col-sm-12 col-xs-12'>{{part.desc}}</span>
+            </div>
+
           </div>
-        </div>
-        <div class="col-md-2 col-sm-2 col-xs-2">
-          <img class="img-part" src="{{part.img}}" alt="">
-        </div>
-		</div>          
-	</div>
-	<div class="col-md-3 col-sm-3 col-xs-12">
-		
-   	<div id='product-component-322651ccccd2'></div>      
+          <div class="col-md-5 col-sm-5 col-xs-5">
+            <div class='col-md-12 col-sm-12 col-xs-12 nopadding' ng-repeat='size in part.sizes'>
+              <div class='col-md-5 col-sm-5 col-xs-5 nopadding'>
+                <span class='col-md-12 col-sm-12 col-xs-12'>{{size.size}}</span>
+              </div>
+              <div class='col-md-6 col-sm-6 col-xs-6 nopadding'>
+                <span class='col-md-12 col-sm-12 col-xs-12'>{{size.price}}</span>
+              </div>  
+            </div>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-2">
+            <img class="img-part" src="{{part.img}}" alt="">
+          </div>
+        </div>          
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
 
-<script type="text/javascript">
-/*<![CDATA[*/
- 
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
- 
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
- 
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'amerivacs-manufacturing.myshopify.com',
-      apiKey: '3b0ecda9533ce634f928da9b5ddaf811',
-      appId: '6',
-    });
- 
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [9644244105],
-        node: document.getElementById('product-component-322651ccccd2'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "variantId": "all",
-    "width": "240px",
-    "contents": {
-      "imgWithCarousel": false,
-      "variantTitle": false,
-      "description": false,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
-        }
-      },
-      "button": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      },
-      "compareAt": {
-        "font-size": "12px"
-      }
-    }
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "text": {
-      "notice": "Handling, Shipping, and Applicable Taxes are added at checkout."
-    },
-    "styles": {
-      "button": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      },
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      }
-    }
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      },
-      "count": {
-        "color": "#ffffff",
-        ":hover": {
-          "color": "#ffffff"
-        }
-      },
-      "iconPath": {
-        "fill": "#ffffff"
-      }
-    }
-  },
-  "productSet": {
-   "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
+        <div id='product-component-322651ccccd2'></div>      
+
+        <script type="text/javascript">
+          /*<![CDATA[*/
+
+          (function () {
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+            if (window.ShopifyBuy) {
+              if (window.ShopifyBuy.UI) {
+                ShopifyBuyInit();
+              } else {
+                loadScript();
+              }
+            } else {
+              loadScript();
+            }
+
+            function loadScript() {
+              var script = document.createElement('script');
+              script.async = true;
+              script.src = scriptURL;
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+              script.onload = ShopifyBuyInit;
+            }
+
+            function ShopifyBuyInit() {
+              var client = ShopifyBuy.buildClient({
+                domain: 'amerivacs-manufacturing.myshopify.com',
+                apiKey: '3b0ecda9533ce634f928da9b5ddaf811',
+                appId: '6',
+              });
+
+              ShopifyBuy.UI.onReady(client).then(function (ui) {
+                ui.createComponent('product', {
+                  id: [9644244105],
+                  node: document.getElementById('product-component-322651ccccd2'),
+                  moneyFormat: '%24%7B%7Bamount%7D%7D',
+                  options: {
+                    "product": {
+                      "variantId": "all",
+                      "width": "240px",
+                      "contents": {
+                        "imgWithCarousel": false,
+                        "variantTitle": false,
+                        "description": false,
+                        "buttonWithQuantity": false,
+                        "quantity": false
+                      },
+                      "styles": {
+                        "product": {
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "0",
+                            "margin-bottom": "50px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#070b81",
+                          ":hover": {
+                            "background-color": "#0c13db"
+                          },
+                          ":focus": {
+                            "background-color": "#0c13db"
+                          }
+                        },
+                        "compareAt": {
+                          "font-size": "12px"
+                        }
+                      }
+                    },
+                    "cart": {
+                      "contents": {
+                        "button": true
+                      },
+                      "text": {
+                        "notice": "Handling, Shipping, and Applicable Taxes are added at checkout."
+                      },
+                      "styles": {
+                        "button": {
+                          "background-color": "#070b81",
+                          ":hover": {
+                            "background-color": "#0c13db"
+                          },
+                          ":focus": {
+                            "background-color": "#0c13db"
+                          }
+                        },
+                        "footer": {
+                          "background-color": "#ffffff"
+                        }
+                      }
+                    },
+                    "modalProduct": {
+                      "contents": {
+                        "img": false,
+                        "imgWithCarousel": true,
+                        "variantTitle": false,
+                        "buttonWithQuantity": true,
+                        "button": false,
+                        "quantity": false
+                      },
+                      "styles": {
+                        "product": {
+                          "@media (min-width: 601px)": {
+                            "max-width": "100%",
+                            "margin-left": "0px",
+                            "margin-bottom": "0px"
+                          }
+                        },
+                        "button": {
+                          "background-color": "#070b81",
+                          ":hover": {
+                            "background-color": "#0c13db"
+                          },
+                          ":focus": {
+                            "background-color": "#0c13db"
+                          }
+                        }
+                      }
+                    },
+                    "toggle": {
+                      "styles": {
+                        "toggle": {
+                          "background-color": "#070b81",
+                          ":hover": {
+                            "background-color": "#0c13db"
+                          },
+                          ":focus": {
+                            "background-color": "#0c13db"
+                          }
+                        },
+                        "count": {
+                          "color": "#ffffff",
+                          ":hover": {
+                            "color": "#ffffff"
+                          }
+                        },
+                        "iconPath": {
+                          "fill": "#ffffff"
+                        }
+                      }
+                    },
+                    "productSet": {
+                     "styles": {
+                      "products": {
+                        "@media (min-width: 601px)": {
+                          "margin-left": "-20px"
+                        }
+                      }
+                    }
+                  }
+                }
+              });
+});
 }
-      });
-    });
-  }
 })();
-/*]]>*/
-</script>
-		
-	</div>
-      
 
-		
-	</div>
-
-
-
-<!--
-	<div class='partes col-md-12 col-sm-12 col-xs-12 tabla-p' style='display:table' ng-show="isOptions">
-		<label class='search col-md-3 col-sm-3-col-xs-3'>Search: <input ng-model="searchText"></label>
-		<div class='col-md-12 nopadding rengl'>
-
-			<div class='col-md-3 col-sm-3 col-xs-3 mb-2 nopadding'>
-				<span class='tab-name'>Option</span>
-			</div>
-
-			<div class='col-md-2 col-sm-4 col-xs-3 mb-2 nopadding'>
-				<span class='tab-name'>Info</span>
-			</div>
-
-			<div class='col-md-2 col-sm-2 col-xs-3 mb-2 nopadding'>
-				<span class='tab-name' style ='padding-left:5%'>Size</span>
-			</div>
-			<div class='col-md-2 col-sm-2 col-xs-3 mb-2 nopadding'>
-				<span class='tab-name'>Price</span>
-			</div>		
-		</div>
-
-		<div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t rengl' ng-repeat='part in opciones | filter:searchText '>
-			<div class='col-md-2 col-sm-2 col-xs-3 nopadding'>
-				<span><strong>{{part.id}}</strong></span>
-			</div>
-			<div class='col-md-3 col-sm-3 col-xs-4'>
-				<span class='col-md-12 col-sm-12 col-xs-12'>{{part.subti}}</span>
-			</div>
-			<div class='col-md-2 col-sm-2 col-xs-2'>
-				<span class='col-md-12 col-sm-12 col-xs-12'>{{part.size}}</span>
-			</div>
-			<div class='col-md-2 col-sm-2 col-xs-3'>
-				<span class='col-md-12 col-sm-12 col-xs-12'>{{part.price}}</span>
-			</div>
-			<img src='img/BOTON-2_000.png' class='col-md-2 col-sm-3 col-xs-8 carrito-boton-1 cursor' style='float:right' ng-click='handler.addItem(part.id, part.size, part.price)' ng-show='showCartButton'></img>			
-		</div>
-		
-	</div>
--->
-
-	<div class='partes col-md-12 col-sm-12 col-xs-12 tabla-p' style='display:table' ng-show="isOptions">
-      
-  
+</script>		
+</div>
+</div>
+<div class='partes col-md-12 col-sm-12 col-xs-12 tabla-p' style='display:table' ng-show="isOptions">
 
 	<div class="col-md-9 col-sm-9 col-xs-12">
-	  
-      
+
 		<label class='search col-md-3 col-sm-3-col-xs-3'>Search: <input ng-model="searchText"></label>
 		<div class='col-md-12 nopadding rengl'>
 
@@ -727,187 +608,172 @@
       <div class="col-md-2 col-sm-2 col-xs-12">
         {{part.img}}
       </div>
-		</div>        
-	</div>
+    </div>        
+  </div>
 
-<div class='col-md-12 col-sm-12 col-xs-12 nopadding' ng-show='isOptions'>
-  <span class='col-md-11 col-sm-11 col-xs-11' style='margin-top:20px; text-align:right;'>CE* 220 Volt A.C. Conversion included</span>
-  <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>STAND ** $15 Handling Fee per Stand</span>
-  <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>SEAL BAR*** Only available for AVC & AVCG</span>
-  <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>VSS **** Only available for AVC & AVCG </span>
-</div>
-	<div class="col-md-3 col-sm-3 col-xs-12">
-		
-     	<div id='product-component-322651ccccd3'></div>      
+  <div class='col-md-12 col-sm-12 col-xs-12 nopadding' ng-show='isOptions'>
+    <span class='col-md-11 col-sm-11 col-xs-11' style='margin-top:20px; text-align:right;'>CE* 220 Volt A.C. Conversion included</span>
+    <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>STAND ** $15 Handling Fee per Stand</span>
+    <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>SEAL BAR*** Only available for AVC & AVCG</span>
+    <span class='col-md-11 col-sm-11 col-xs-11' style='text-align:right;'>VSS **** Only available for AVC & AVCG </span>
+  </div>
+  <div class="col-md-3 col-sm-3 col-xs-12">
 
-<script type="text/javascript">
-/*<![CDATA[*/
- 
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
- 
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
- 
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'amerivacs-manufacturing.myshopify.com',
-      apiKey: '3b0ecda9533ce634f928da9b5ddaf811',
-      appId: '6',
-    });
- 
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('product', {
-        id: [9644244105],
-        node: document.getElementById('product-component-322651ccccd3'),
-        moneyFormat: '%24%7B%7Bamount%7D%7D',
-        options: {
-  "product": {
-    "variantId": "all",
-    "width": "240px",
-    "contents": {
-      "imgWithCarousel": false,
-      "variantTitle": false,
-      "description": false,
-      "buttonWithQuantity": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0",
-          "margin-bottom": "50px"
+    <div id='product-component-322651ccccd3'></div>      
+
+    <script type="text/javascript">
+      (function () {
+        var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+        if (window.ShopifyBuy) {
+          if (window.ShopifyBuy.UI) {
+            ShopifyBuyInit();
+          } else {
+            loadScript();
+          }
+        } else {
+          loadScript();
         }
-      },
-      "button": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
+
+        function loadScript() {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = scriptURL;
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+          script.onload = ShopifyBuyInit;
         }
-      },
-      "compareAt": {
-        "font-size": "12px"
-      }
-    }
-  },
-  "cart": {
-    "contents": {
-      "button": true
-    },
-    "text": {
-      "notice": "Handling, Shipping and Applicable Taxes are added at checkout."
-    },
-    "styles": {
-      "button": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      },
-      "footer": {
-        "background-color": "#ffffff"
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": false,
-      "imgWithCarousel": true,
-      "variantTitle": false,
-      "buttonWithQuantity": true,
-      "button": false,
-      "quantity": false
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      }
-    }
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "background-color": "#070b81",
-        ":hover": {
-          "background-color": "#0c13db"
-        },
-        ":focus": {
-          "background-color": "#0c13db"
-        }
-      },
-      "count": {
-        "color": "#ffffff",
-        ":hover": {
-          "color": "#ffffff"
-        }
-      },
-      "iconPath": {
-        "fill": "#ffffff"
-      }
-    }
-  },
-  "productSet": {
-   "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  }
+
+        function ShopifyBuyInit() {
+          var client = ShopifyBuy.buildClient({
+            domain: 'amerivacs-manufacturing.myshopify.com',
+            apiKey: '3b0ecda9533ce634f928da9b5ddaf811',
+            appId: '6',
+          });
+
+          ShopifyBuy.UI.onReady(client).then(function (ui) {
+            ui.createComponent('product', {
+              id: [9644244105],
+              node: document.getElementById('product-component-322651ccccd3'),
+              moneyFormat: '%24%7B%7Bamount%7D%7D',
+              options: {
+                "product": {
+                  "variantId": "all",
+                  "width": "240px",
+                  "contents": {
+                    "imgWithCarousel": false,
+                    "variantTitle": false,
+                    "description": false,
+                    "buttonWithQuantity": false,
+                    "quantity": false
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0",
+                        "margin-bottom": "50px"
+                      }
+                    },
+                    "button": {
+                      "background-color": "#070b81",
+                      ":hover": {
+                        "background-color": "#0c13db"
+                      },
+                      ":focus": {
+                        "background-color": "#0c13db"
+                      }
+                    },
+                    "compareAt": {
+                      "font-size": "12px"
+                    }
+                  }
+                },
+                "cart": {
+                  "contents": {
+                    "button": true
+                  },
+                  "text": {
+                    "notice": "Handling, Shipping and Applicable Taxes are added at checkout."
+                  },
+                  "styles": {
+                    "button": {
+                      "background-color": "#070b81",
+                      ":hover": {
+                        "background-color": "#0c13db"
+                      },
+                      ":focus": {
+                        "background-color": "#0c13db"
+                      }
+                    },
+                    "footer": {
+                      "background-color": "#ffffff"
+                    }
+                  }
+                },
+                "modalProduct": {
+                  "contents": {
+                    "img": false,
+                    "imgWithCarousel": true,
+                    "variantTitle": false,
+                    "buttonWithQuantity": true,
+                    "button": false,
+                    "quantity": false
+                  },
+                  "styles": {
+                    "product": {
+                      "@media (min-width: 601px)": {
+                        "max-width": "100%",
+                        "margin-left": "0px",
+                        "margin-bottom": "0px"
+                      }
+                    },
+                    "button": {
+                      "background-color": "#070b81",
+                      ":hover": {
+                        "background-color": "#0c13db"
+                      },
+                      ":focus": {
+                        "background-color": "#0c13db"
+                      }
+                    }
+                  }
+                },
+                "toggle": {
+                  "styles": {
+                    "toggle": {
+                      "background-color": "#070b81",
+                      ":hover": {
+                        "background-color": "#0c13db"
+                      },
+                      ":focus": {
+                        "background-color": "#0c13db"
+                      }
+                    },
+                    "count": {
+                      "color": "#ffffff",
+                      ":hover": {
+                        "color": "#ffffff"
+                      }
+                    },
+                    "iconPath": {
+                      "fill": "#ffffff"
+                    }
+                  }
+                },
+                "productSet": {
+                 "styles": {
+                  "products": {
+                    "@media (min-width: 601px)": {
+                      "margin-left": "-20px"
+                    }
+                  }
+                }
+              }
+            }
+          });
+});
 }
-      });
-    });
-  }
 })();
-/*]]>*/
 </script>
-      
-
-	</div>
-
-		
-	</div>
-
-
-
-
-
-                    
-                    
-
+</div>
+</div>
 </div>

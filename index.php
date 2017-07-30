@@ -60,14 +60,14 @@
           </li>
           <!-- Columna para los botones -->
             <div class='col-md-12 col-sm-12 col-xs-12 show-menu' style='position:relative; z-index:4;'>
-              <ul class='col-md-3 col-xs-12 col-sm-12' style="position:absolute; bottom:-120px; right:0px" ng-mouseover="showMenu()" ng-mouseleave="hideMenu()" style='padding:0%; float:right;'>
-                <li class='hover-2 boton col-md-9 col-sm-6 col-xs-6  r-bottom back-white2 nopadding txt-c' style='float:left'>
+              <ul class='col-md-3 col-xs-12 col-sm-12' style="position:absolute; bottom:-90px; right:0px" ng-mouseover="showMenu()" ng-mouseleave="hideMenu()" style='padding:0%; float:right;'>
+                <li class='hover-2 boton col-md-9 col-sm-4 col-xs-4  r-bottom back-white2 nopadding txt-c' style='float:left'>
                   <a class='font1' href="/product">All products</a>
                 </li>
-                <li class='hover-2 boton col-md-9 col-sm-6 col-xs-6  r-bottom back-white2 nopadding txt-c' style='float:left'>
+                <li class='hover-2 boton col-md-9 col-sm-4 col-xs-4  r-bottom back-white2 nopadding txt-c' style='float:left'>
                   <a class='font1' href="/compare">Compare vacuum sealers</a>
                 </li>
-                <li class='hover-2 boton col-md-9 col-sm-6 col-xs-6 back-white2 nopadding txt-c' style='float:left'>
+                <li class='hover-2 boton col-md-9 col-sm-4 col-xs-4 back-white2 nopadding txt-c' style='float:left'>
                   <a class='font1' href="/selector">Vacuum sealer selector</a>
                 </li>      
               </ul>
