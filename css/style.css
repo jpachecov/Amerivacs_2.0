@@ -1569,3 +1569,11 @@ margin-top: 10px;
 	display: block;
 	width: 80%;
 }
+
+
+@media (max-width: 720px) {
+
+    .img-part {
+        display: block;
+        width: 150px;
+    }
