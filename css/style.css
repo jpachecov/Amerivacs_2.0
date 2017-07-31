@@ -1567,13 +1567,19 @@ margin-top: 10px;
 
 .img-part{
 	display: block;
-	width: 80%;
+	width: 150px;
+}
+
+.modal-header {
+    padding: 15px;
+    border-bottom: none;
 }
 
 
 @media (max-width: 720px) {
-
-    .img-part {
+	.img-part {
         display: block;
-        width: 150px;
+        width: 100px;
     }
+
+ }

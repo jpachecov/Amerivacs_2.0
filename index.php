@@ -38,16 +38,16 @@
             -->
             </li>
             <li class='col-xs-2 col-sm-2 col-md-1'>
-              <a href="/amerivacs/contact">Contact</a> 
+              <a href="/contact">Contact</a> 
             </li>
             <li class='raya-derecha col-xs-3 col-sm-3 col-md-1'>
-              <a href="/amerivacs/about">About us</a>  
+              <a href="/about">About us</a>  
             </li>
             <li class='raya-derecha col-xs-3 col-sm-3 col-md-1' ng-mouseover="showMenu()" ng-mouseleave="hideMenu()">
-              <a href="/amerivacs/products">Products<span class='trian'>&#x25BC</span> </a>  
+              <a href="/products">Products<span class='trian'>&#x25BC</span> </a>  
             </li>
             <li class='raya-derecha col-xs-2 col-sm-3 col-md-1'>
-              <a href="/amerivacs/home">Home</a>  
+              <a href="/home">Home</a>  
             </li>
 
 

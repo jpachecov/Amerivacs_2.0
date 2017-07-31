@@ -615,6 +615,34 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 
 		console.log('getP ' + name);
 
+
+			switch(name){
+				case "AVN":
+					$scope.botonShopy = "botones-shopify/avn.html";
+					break;
+				case "AVS":
+					$scope.botonShopy = "botones-shopify/avs.html";
+					break;
+				case "CAVN":
+					$scope.botonShopy = "botones-shopify/cavn.html";
+					break;
+				case "CAVS":
+					$scope.botonShopy = "botones-shopify/cavs.html";
+					break;
+				case "AVC":
+					$scope.botonShopy = "botones-shopify/avc.html";
+					break;
+				case "AVP":
+					$scope.botonShopy = "botones-shopify/avp.html";
+					break;
+				default :
+					$scope.botonShopy = "botones-shopify/allProducts.html";
+					break;
+
+			}
+
+
+
 		if(name == 'PARTS'){
 			console.log('getproduct parts');
 			$scope.isVacuum = false;
@@ -655,6 +683,9 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 			$scope.isVacuum = false;
 			$scope.isParts = false;
 			$scope.isOptions = true;
+
+
+
 
 			// Obtemeos las partes
 			$scope.producto = {};
@@ -698,6 +729,12 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 			$scope.isVacuum = true;
 			$scope.isOptions = false;
 			$scope.isParts = false;
+
+
+
+
+
+			
 /*
 
 			var request = $http({
@@ -913,4 +950,20 @@ $scope.cambiaPestana = function(container, content){
 	$("#c" + content).addClass("selected");
 }
 
+
+
+
+$scope.cargaImagen = function(url){
+
+	$('#image-gallery-image').attr('src', "/amerivacs/" + url);
+
+
+	}
+
+	
+
 });
+
+
+
+
