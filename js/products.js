@@ -635,6 +635,12 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 				case "AVP":
 					$scope.botonShopy = "botones-shopify/avp.html";
 					break;
+				case "OPTIONS":
+					$scope.botonShopy = "botones-shopify/upgrades_accesories.html";
+					break;
+				case "AVCG":
+					$scope.botonShopy = "botones-shopify/avc.html";
+					break;
 				default :
 					$scope.botonShopy = "botones-shopify/allProducts.html";
 					break;
