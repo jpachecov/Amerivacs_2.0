@@ -1,18 +1,22 @@
 "use strict"
 var app = angular.module('amerivacs', ['ngSanitize','ngAnimate','ngRoute']);
 
+
+
 // Rutas para la aplicacion
 app.config(['$routeProvider', function($routeProvider){
+
+	var local = true;
     $routeProvider
-    .when('/',{templateUrl: "/inicio.html"})
-    .when('/home',{templateUrl: "/inicio.html"})
-    .when('/about', {templateUrl:"/about_us.html"})
-    .when('/products', {templateUrl:"/productos.html"})
-    .when('/product',{templateUrl: "/producto.html"})
-    .when('/contact',{templateUrl: "/contacto.html"})
-    .when('/compare',{templateUrl: "/compara.html"})
-    .when('/selector',{templateUrl: "/ciber_selector.html"})
-    .otherwise({templateUrl:"/amerivacs/producto.html"});
+    .when('/',{templateUrl: ((local)?"../amerivacs":"") + "/inicio.html"})
+    .when('/home',{templateUrl: ((local)?"../amerivacs":"") + "/inicio.html"})
+    .when('/about', {templateUrl:((local)?"../amerivacs":"") + "/about_us.html"})
+    .when('/products', {templateUrl: ((local)?"../amerivacs":"") + "/productos.html"})
+    .when('/product',{templateUrl: ((local)?"../amerivacs":"") + "/producto.html"})
+    .when('/contact',{templateUrl: ((local)?"../amerivacs":"") + "/contacto.html"})
+    .when('/compare',{templateUrl: ((local)?"../amerivacs":"") + "/compara.html"})
+    .when('/selector',{templateUrl: ((local)?"../amerivacs":"") + "/ciber_selector.html"})
+    .otherwise({templateUrl: ((local)?"../amerivacs":"") + "/producto.html"});
 
 }]);
 
@@ -24,7 +28,8 @@ app.config(function($locationProvider){
 });
 
 app.run(function($rootScope){
-
+	var local = true;
+	$rootScope.dir = (local)?"../amerivacs/":"";
 	$rootScope.options = [
 		{
 			'name':'BAS-',
