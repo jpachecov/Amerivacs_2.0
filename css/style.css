@@ -1575,11 +1575,25 @@ margin-top: 10px;
     border-bottom: none;
 }
 
+ .tamanio_fijo {
+    
+    }
 
 @media (max-width: 720px) {
 	.img-part {
         display: block;
         width: 100px;
+    }
+
+   
+
+
+ }
+
+ @media (min-width: 720px) {
+
+ 	 .tamanio_fijo {
+    	width: 11.11%
     }
 
  }
