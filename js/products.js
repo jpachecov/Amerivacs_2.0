@@ -325,7 +325,7 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 
 	$scope.accesories = [
 		{
-			'nombre' : 'UPGRADES AND ACCESORIES',
+			'nombre' : 'UPGRADES AND ACCESSORIES',
 			'descrip' : '',
 			'resumen_p' : '', 
 			'img' : ''
@@ -695,7 +695,7 @@ app.controller('controlador', function($scope,$sce, $http, $location, $rootScope
 
 			// Obtemeos las partes
 			$scope.producto = {};
-			$scope.producto = {'name':'UPGRADES AND ACCESORIES','subtitulo':'Accessories for vacuum sealers'};//= $scope.parts;
+			$scope.producto = {'name':'UPGRADES AND ACCESSORIES','subtitulo':'Accessories for vacuum sealers'};//= $scope.parts;
 
 			
 

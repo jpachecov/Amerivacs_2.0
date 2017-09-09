@@ -387,7 +387,7 @@ app.run(function($rootScope){
 
 		{
 			'name':'SEAL BAR',
-			'desc':'Additional Seal Bar',
+			'desc':'Additional Seal Bar ***',
 			'sizes':[
 				{
 					'size': '20"',
@@ -414,7 +414,7 @@ app.run(function($rootScope){
 		},
 		{
 			'name':'VSS',
-			'desc':'Vacuum Selector Switch, per position',
+			'desc':'Vacuum Selector Switch, per position ****',
 			'sizes':[
 				{
 					'size': '20"',
@@ -1545,8 +1545,8 @@ app.run(function($rootScope){
 		},
 
 		{
-			'name':'UPGRADES AND ACCESORIES',
-			'subtitulo':'Accesories for vacuum sealers',
+			'name':'UPGRADES AND ACCESSORIES',
+			'subtitulo':'Accessories for vacuum sealers',
 			'parrafo':'',
 		}
 
