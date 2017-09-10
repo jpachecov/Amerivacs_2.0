@@ -10,6 +10,7 @@
     <title>AmeriVacS</title>
 
     <link rel="shortcut icon" type="image/png" href="/img/logo_menu.png"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive/menu.css"/>
     <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -22,7 +23,7 @@
 
 
 
-      <div class='container container-fluid'>
+      <div class='container container-fluid app'>
         <header class=' header col-md-12 col-sm-12 col-xs-12'>
 
           <ul class='menu col-md-12 col-sm-12 col-xs-12 nopadding' style='background-color:white; z-index:5;'>
@@ -37,7 +38,7 @@
               </a>
             -->
             </li>
-            <li class='col-xs-2 col-sm-2 col-md-1'>
+            <li class='col-xs-3 col-sm-2 col-md-1'>
               <a href="/contact">Contact</a> 
             </li>
             <li class='raya-derecha col-xs-3 col-sm-3 col-md-1'>
@@ -46,7 +47,7 @@
             <li class='raya-derecha col-xs-3 col-sm-3 col-md-1' ng-mouseover="showMenu()" ng-mouseleave="hideMenu()">
               <a href="/products">Products<span class='trian'>&#x25BC</span> </a>  
             </li>
-            <li class='raya-derecha col-xs-2 col-sm-3 col-md-1'>
+            <li class='raya-derecha col-xs-3 col-sm-3 col-md-1'>
               <a href="/home">Home</a>  
             </li>
 

@@ -1,0 +1,17 @@
+@media (max-width: 700px) {
+	.app {
+		padding: 0px !important;
+	}
+	.app .logo_container {
+		width:100% !important;
+	}
+	.app .logo_container .logo_up{
+		display: block !important;
+		width: 50% !important;
+		float: none !important;
+		margin: 0 auto !important;
+	}
+	.app .raya-derecha {
+		border-color: #969696 !important;
+	}
+}
