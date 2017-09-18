@@ -53,6 +53,7 @@ app.run(function($rootScope){
 				}
 
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'SS-',
@@ -79,6 +80,7 @@ app.run(function($rootScope){
 					'price': '$800',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'CE',
@@ -105,6 +107,7 @@ app.run(function($rootScope){
 					'price': '$1,000',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'VF',
@@ -131,6 +134,7 @@ app.run(function($rootScope){
 					'price': '$100',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'VR',
@@ -157,6 +161,7 @@ app.run(function($rootScope){
 					'price': '$50',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'220PX',
@@ -183,6 +188,7 @@ app.run(function($rootScope){
 					'price': '$350',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'DN',
@@ -205,6 +211,7 @@ app.run(function($rootScope){
 					'price': '$765',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'TRAY',
@@ -227,6 +234,7 @@ app.run(function($rootScope){
 					'price': '$75',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'EC',
@@ -253,6 +261,7 @@ app.run(function($rootScope){
 					'price': '$250',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'LPC',
@@ -279,6 +288,7 @@ app.run(function($rootScope){
 					'price': 'Included',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'AF',
@@ -305,6 +315,7 @@ app.run(function($rootScope){
 					'price': '$195',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'TC',
@@ -331,6 +342,7 @@ app.run(function($rootScope){
 					'price': '$1,995',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'PE',
@@ -357,6 +369,7 @@ app.run(function($rootScope){
 					'price': '$220',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'STAND',
@@ -383,6 +396,7 @@ app.run(function($rootScope){
 					'price': 'Not available',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 
 		{
@@ -411,6 +425,7 @@ app.run(function($rootScope){
 					'price': 'N/A',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		},
 		{
 			'name':'VSS',
@@ -438,6 +453,7 @@ app.run(function($rootScope){
 					'price': 'N/A',
 				},
 			],
+			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
 		}
 	];
 
