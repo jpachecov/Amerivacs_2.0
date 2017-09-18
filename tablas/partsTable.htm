@@ -1,0 +1,23 @@
+<div class="col-md-5 col-sm-5 col-xs-5">
+	<div class='col-md-6 col-sm-6 col-xs-6 nopadding'>
+		<span><strong>{{part.name}}</strong></span>
+	</div>
+	<div class='col-md-6 col-sm-6 col-xs-6'>
+		<span class='col-md-12 col-sm-12 col-xs-12'>{{part.desc}}</span>
+	</div>
+</div>
+<div class="col-md-5 col-sm-5 col-xs-5">
+	<div class='col-md-12 col-sm-12 col-xs-12 nopadding' ng-repeat='size in part.sizes'>
+	  <div class='col-md-5 col-sm-5 col-xs-5 nopadding'>
+	  	<span class='col-md-12 col-sm-12 col-xs-12'>{{size.size}}</span>
+	  </div>
+	  <div class='col-md-6 col-sm-6 col-xs-6 nopadding'>
+	    <span class='col-md-12 col-sm-12 col-xs-12'>{{size.price}}</span>
+	  </div>  
+	</div>
+</div>
+<div class="col-md-2 col-sm-2 col-xs-2">
+	<a class="thumbnail" href="#" data-image-id=""  data-toggle="modal"   data-image="/amerivacs/{{part.img}}" data-target="#image-gallery" ng-click = "cargaImagen(part.img)"> 
+  		<img class="img-part" src="{{part.img}}" alt="">
+	</a> 
+</div>
