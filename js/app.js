@@ -80,7 +80,7 @@ app.run(function($rootScope){
 					'price': '$800',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'Allows for complete cleaning and sterilization required for harsh environments in all industries.',
 		},
 		{
 			'name':'CE',
@@ -107,7 +107,7 @@ app.run(function($rootScope){
 					'price': '$1,000',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'Required in the European Union. 220PX - 220 Volt A.C. 50-60 Hz conversion included.',
 		},
 		{
 			'name':'VF',
@@ -134,7 +134,7 @@ app.run(function($rootScope){
 					'price': '$100',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'Keeps the vacuum pump free of any debris from your product that the nozzle might suck in and make your sealer inoperative. Must be installed by AmeriVacS.',
 		},
 		{
 			'name':'VR',
@@ -161,7 +161,7 @@ app.run(function($rootScope){
 					'price': '$50',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'Allows to lower the vacuum level exerted on the package. Ideal for fragile or sharp items. Adjustable from 0 to max. Must be installed by AmeriVacS.',
 		},
 		{
 			'name':'220PX',
@@ -188,7 +188,7 @@ app.run(function($rootScope){
 					'price': '$350',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'For all countries where this higher voltage is required.',
 		},
 		{
 			'name':'DN',
@@ -211,7 +211,7 @@ app.run(function($rootScope){
 					'price': '$765',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'To perform a quicker gas flush and vacuum on single large bags. Not intended for 2 bags at a time. Requires 12 CFM air source. AVS and AVN models only.',
 		},
 		{
 			'name':'TRAY',
@@ -234,7 +234,7 @@ app.run(function($rootScope){
 					'price': '$75',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'An attachable 12” x 20” work shelf that can be adjusted to different heights to support the bagged product.  AVP, AVS, AVN up to 35” and CAV models only.',
 		},
 		{
 			'name':'EC',
@@ -261,7 +261,7 @@ app.run(function($rootScope){
 					'price': '$250',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'Additional gas or vacuum cycle. This upgrade helps to further reduce the oxygen and moisture level inside the bag.  AVN models only.',
 		},
 		{
 			'name':'LPC',
@@ -288,7 +288,7 @@ app.run(function($rootScope){
 					'price': 'Included',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'An additional safety feature that brings the sealing bar down even slower protecting users from energy hazards. AVS and AVN models only.',
 		},
 		{
 			'name':'AF',
@@ -315,7 +315,7 @@ app.run(function($rootScope){
 					'price': '$195',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'Protects your sealer from moisture and contamination in the incoming compressed air to the machine. Recommended for humid environments.',
 		},
 		{
 			'name':'TC',
@@ -342,7 +342,7 @@ app.run(function($rootScope){
 					'price': '$1,995',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'For precise temperature and time control on the seal process.',
 		},
 		{
 			'name':'PE',
@@ -369,7 +369,7 @@ app.run(function($rootScope){
 					'price': '$220',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'Directs exhaust air from inside of the machine to a port on the back for customer plumbing outside the area.  Recommended for clean rooms.',
 		},
 		{
 			'name':'STAND',
@@ -396,7 +396,7 @@ app.run(function($rootScope){
 					'price': 'Not available',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'A user-friendly multi-position machine stand for the AVS and AVN series vacuum sealers up to 35” long. Light and sturdy frame allows for different height adjustments and machine angles to maximize productivity.',
 		},
 
 		{
@@ -425,7 +425,7 @@ app.run(function($rootScope){
 					'price': 'N/A',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'Duplicate your production by installing a second seal bar on the left side of the Chamber Vacuum Sealer. (If space allows).',
 		},
 		{
 			'name':'VSS',
@@ -453,7 +453,7 @@ app.run(function($rootScope){
 					'price': 'N/A',
 				},
 			],
-			'description':'Consists of an upper and lower heating element (1/4”) to seal bags over 6 Mil thick or other tough-to-seal items.',
+			'description':'For quick switching within different vacuum pressures when packaging different size products.  Use this switch to select a pre-defined vacuum pressure that you set for each position.',
 		}
 	];
 
