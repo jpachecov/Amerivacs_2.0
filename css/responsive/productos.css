@@ -28,4 +28,8 @@
 	#pestanas li a {
 		font-size: 10px !important;
 	}
+
+	.upgrades .labels {
+		display: none;
+	}
 }

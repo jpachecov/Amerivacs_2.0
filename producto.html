@@ -110,33 +110,35 @@
           <div id="contenidopestanas" class="col-md-12 col-sm-12 col-xs-12" ng-show="isVacuum">
             <div id="cpestana1" class="col-md-12 col-sm-12 col-xs-12 selected">
               <!-- Upgrades and accesories -->
-              <div class='col-md-12 tabla-p' style='display:table' ng-show="isVacuum">
+              <div class='col-md-12 tabla-p upgrades' style='display:table' ng-show="isVacuum">
                 <div class='col-md-12 nopadding'>
                   <div class='col-md-12 mb-2 nopadding' style='margin-top:1%; margin-bottom:2%;'>
                     <span class='tab-name'>Upgrades and accessories</span>
                   </div>
-                  <div class='col-md-12 nopadding' style='margin-bottom:10px;'>
-                    <div class='col-md-1 col-xs-4 nopadding'>
+                  <div class='col-md-12 nopadding labels' style='margin-bottom:10px;'>
+                    <div class='col-md-1 col-sm-2 col-xs-2 nopadding'>
                       <span class='blue-c col-xs-12'>Options</span>
                     </div>      
-                    <div class='col-md-5 col-sm-6 col-xs-8 bord-l' style='text-align:center;'>
+                    <div class='col-md-5 col-sm-3 col-xs-4 bord-l' style='text-align:center;'>
                       <span class='blue-c'>Info</span>
                     </div>        
-                    <div class='col-md-1 col-sm-2 col-xs-2 blue-c bord-l' ng-repeat='x in producto.options[0]'>
+                    <div class='col-md-1 col-sm-1 col-xs-1 blue-c bord-l' ng-repeat='x in producto.options[0]'>
                       <span class=''>{{x}}</span>
                     </div>
                   </div>
                 </div>
                 <div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t rengl' ng-repeat='op in producto.options[1]'>
-                  <div class='col-md-2 col-sm-4 col-xs-3 nopadding'>
+                  <div class='col-md-2 col-sm-2 col-xs-2 nopadding res-col' data-label="Option">
                     <span><strong>{{op.op}}</strong></span>
                   </div>
-                  <div class='col-md-4 col-sm-4 col-xs-9 nopadding'>
+                  <div class='col-md-4 col-sm-3 col-xs-3 nopadding res-col' data-label="Info">
                     <span>{{op.des}}</span>
                   </div>
-                  <div class='col-md-1 col-xs-2' ng-repeat='y in op.prices'>
-                    <span>{{y}}</span>
-                  </div>      
+                  <div class='col-md-6 col-sm-7 col-xs-7 res-col prices' data-label="Prices">
+                    <div class='col-md-2 col-sm-2 col-xs-2 price' ng-repeat='y in op.prices'>
+                      <span>{{y}}</span>
+                    </div>                          
+                  </div>
                 </div>
 
               </div>
