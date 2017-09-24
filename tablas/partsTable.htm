@@ -1,23 +1,60 @@
-<div class="col-md-5 col-sm-5 col-xs-5">
-	<div class='col-md-6 col-sm-6 col-xs-6 nopadding res-col' data-label="Part">
-		<span><strong>{{part.name}}</strong></span>
+<div class="col-md-9 col-sm-9 col-xs-12">
+	<label class='search col-md-3 col-sm-3-col-xs-3'>Search:<input ng-model="searchText_2"></label>
+	<div class='col-md-12 nopadding rengl titulos'>
+		<div class='col-md-3 col-sm-3 col-xs-3 mb-2 nopadding'>
+			<span class='tab-name'>Part</span>
+		</div>
+		<div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
+			<span class='tab-name'>Info</span>
+		</div>
+		<div class='col-md-2 col-sm-2 col-xs-3 mb-2 nopadding'>
+			<span class='tab-name' style ='padding-left:5%'>Size</span>
+		</div>
+		<div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
+			<span class='tab-name'>Price</span>
+		</div>		
 	</div>
-	<div class='col-md-6 col-sm-6 col-xs-6 res-col' data-label="Info">
-		<span class='col-md-12 col-sm-12 col-xs-12'>{{part.desc}}</span>
-	</div>	
+	<div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t reenglon rengl thumbnail' ng-repeat="part in PARTS | orderBy: '+name' | filter: searchText_2 ">
+		<div class="res-table">
+			<div class="col-md-5 col-sm-5 col-xs-5">
+				<div class='col-md-6 col-sm-6 col-xs-6 nopadding res-col' data-label="Part">
+					<span><strong>{{part.name}}</strong></span>
+				</div>
+				<div class='col-md-6 col-sm-6 col-xs-6 res-col' data-label="Info">
+					<span class='col-md-12 col-sm-12 col-xs-12'>{{part.desc}}</span>
+				</div>	
+			</div>
+			<div class="col-md-5 col-sm-5 col-xs-5 res-col prices" data-label="Prices">
+				<div class='col-md-12 col-sm-12 col-xs-12 nopadding price' ng-repeat='size in part.sizes'>
+				  <div class='col-md-5 col-sm-5 col-xs-5 nopadding'>
+				  	<span class='col-md-12 col-sm-12 col-xs-12'>{{size.size}}</span>
+				  </div>
+				  <div class='col-md-6 col-sm-6 col-xs-6 nopadding'>
+				    <span class='col-md-12 col-sm-12 col-xs-12'>{{size.price}}</span>
+				  </div>  
+				</div>
+			</div>
+			<div class="col-md-2 col-sm-2 col-xs-2">
+				<a href="#" data-image-id=""  data-toggle="modal"   data-image="/amerivacs/{{part.img}}" data-target="#image-gallery" ng-click = "cargaImagen(part.img)"> 
+			  		<img class="img-part" src="{{part.img}}" alt="">
+				</a> 
+			</div>
+		</div>
+	</div>          
 </div>
-<div class="col-md-5 col-sm-5 col-xs-5">
-	<div class='col-md-12 col-sm-12 col-xs-12 nopadding' ng-repeat='size in part.sizes'>
-	  <div class='col-md-5 col-sm-5 col-xs-5 nopadding'>
-	  	<span class='col-md-12 col-sm-12 col-xs-12'>{{size.size}}</span>
-	  </div>
-	  <div class='col-md-6 col-sm-6 col-xs-6 nopadding'>
-	    <span class='col-md-12 col-sm-12 col-xs-12'>{{size.price}}</span>
-	  </div>  
+<!--Ventana modal-->
+<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">
+					<span aria-hidden="true">×</span>
+					<span class="sr-only">Close</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<img id="image-gallery-image" class="img-responsive" src="">
+			</div>
+		</div>
 	</div>
-</div>
-<div class="col-md-2 col-sm-2 col-xs-2">
-	<a class="thumbnail" href="#" data-image-id=""  data-toggle="modal"   data-image="/amerivacs/{{part.img}}" data-target="#image-gallery" ng-click = "cargaImagen(part.img)"> 
-  		<img class="img-part" src="{{part.img}}" alt="">
-	</a> 
 </div>

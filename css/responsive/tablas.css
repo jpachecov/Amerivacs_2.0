@@ -1,18 +1,36 @@
-@media (max-width: 700px) {
+@media (max-width: 600px) {
+	.search {
+		padding: 0px !important;
+	}
+	.search input {
+		width: 100% !important;
+	}
+
+	.tabla-p{
+		padding: 0px !important;
+	}
 	.titulos {
 		display: none;
+	}
+	.res-table {
+		height: auto;
+	}
+	.res-col {
+		width: 100% !important;
+		padding: 5px 0px !important;
 	}
 	.res-table div{
 		width: 100% !important;
 		padding: 0px;
-		margin: 0px;
+		margin: 0px !important;
 	}
 	.res-table span {
-		padding: 0px;
-		margin: 0px;
+		padding: 0px !important;
+		margin: 0px !important;
 	}
-	.res-col {
-		width: 100% !important;
+
+	.res-col > span {
+		font-size: 12px !important;
 	}
 	.res-col:before {
     /*
@@ -23,12 +41,34 @@
     float: left;
     font-weight: bold;
     text-transform: uppercase;
-    width: 50%;
+    width: 80px;
     text-align: left;
+    font-size: 13px;
   }
   .res-col span {
-  	width: 48%;
+  	width: calc(100% - 80px);
   	float: right;
   	text-align: right;
+  }
+  .prices:before {
+  	width: 60px !important;
+  }
+  .prices .price {
+  	width: calc((100% - 60px)/5) !important;
+  }
+  .price span {
+  	display: block !important;
+  	width: 100%;
+  	font-size: 10px;
+  }
+  .desc span {
+  	padding: 0px 0px 0px 20px !important;
+  }
+
+
+  .part-box {
+  	border: 1px !important;
+  	border-color: #cacaca !important;
+  	border-radius: 5px !important;
   }
 }

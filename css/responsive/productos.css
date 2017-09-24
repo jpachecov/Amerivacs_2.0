@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+	.shopify-external > div{
+		margin: 0 auto;
+	}
+
+	.prod_name span{
+		font-size: 20px !important;
+	}
+	.prod_des span {
+		font-size: 12px !important;
+	}
+	#lista {
+		padding: 0px !important;
+	}
+	#pestanas {
+		padding-top: 25px !important;
+	}
+	#pestanas li{
+	    list-style-type: none;
+	    float: left;
+	    text-align: center;
+	    margin: 0px !important;
+	    border-top-left-radius: 5px;
+	    border-top-right-radius: 5px;
+	    border: 1px solid #999;
+	    padding: 0px !important;
+	}
+	#pestanas li a {
+		font-size: 10px !important;
+	}
+}
