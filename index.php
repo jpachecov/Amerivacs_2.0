@@ -13,6 +13,7 @@
     <link rel="stylesheet" type="text/css" href="css/responsive/menu.css"/>
     <link rel="stylesheet" type="text/css" href="css/responsive/tablas.css"/>
     <link rel="stylesheet" type="text/css" href="css/responsive/productos.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive/home.css"/>
     <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">

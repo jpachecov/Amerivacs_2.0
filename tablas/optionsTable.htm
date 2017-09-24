@@ -1,35 +1,39 @@
-<div class="col-md-9 col-sm-9 col-xs-12">
+<div class="col-md-12 col-sm-12 col-xs-12">
 	<label class='search col-md-3 col-sm-3-col-xs-3'>Search:<input ng-model="searchText"></label>
 	<div class='col-md-12 nopadding rengl titulos'>
-		<div class='col-md-3 col-sm-3 col-xs-3 mb-2 nopadding'>
+		<div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
 			<span class='tab-name'>Option</span>
 		</div>
 
-		<div class='col-md-2 col-sm-4 col-xs-3 mb-2 nopadding'>
+		<div class='col-md-3 col-sm-3 col-xs-3 mb-2 nopadding'>
 			<span class='tab-name'>Info</span>
 		</div>
 
-		<div class='col-md-2 col-sm-2 col-xs-3 mb-2 nopadding'>
+		<div class='col-md-3 col-sm-3 col-xs-3 mb-2 nopadding'>
+			<span class='tab-name'>Description</span>
+		</div>
+
+		<div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
 			<span class='tab-name' style ='padding-left:5%'>Size</span>
 		</div>
-		<div class='col-md-2 col-sm-2 col-xs-3 mb-2 nopadding'>
+		<div class='col-md-2 col-sm-2 col-xs-2 mb-2 nopadding'>
 			<span class='tab-name'>Price</span>
 		</div>		
 	</div>
 	<div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t rengl' ng-repeat='part in OPTIONS | filter:searchText '>
 	  	<div class="res-table">
-			<div class="col-md-5 col-sm-5 col-xs-5">
-				<div class='col-md-6 col-sm-6 col-xs-6 nopadding res-col' data-label="Option">
+			<div class="col-md-8 col-sm-8 col-xs-8">
+				<div class='col-md-2 col-sm-2 col-xs-2 nopadding res-col' data-label="Option">
 				  <span><strong>{{part.name}}</strong></span>
 				</div>
-				<div class='col-md-6 col-sm-6 col-xs-6 res-col' data-label="Info">
+				<div class='col-md-4 col-sm-4 col-xs-4 res-col' data-label="Info">
 				  <span class='col-md-12 col-sm-12 col-xs-12'>{{part.desc}}</span>
 				</div>
 				<div class='col-md-6 col-sm-6 col-xs-6 res-col desc' data-label="Description">
 					<span class='col-md-12 col-sm-12 col-xs-12'>{{part.description}}</span>
 				</div>
 			</div>
-			<div class='col-md-5 col-sm-5 col-xs-6 nopadding res-col prices' data-label="Prices">
+			<div class='col-md-4 col-sm-4 col-xs-4 nopadding res-col prices' data-label="Prices">
 				<div class='col-md-12 col-sm-12 col-xs-12 nopadding price' ng-repeat='size in part.sizes'>
 				  <div class='col-md-5 col-sm-5 col-xs-5'>
 				    <span class='col-md-12 col-sm-12 col-xs-12'>{{size.size}}</span>
