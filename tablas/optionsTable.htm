@@ -20,7 +20,7 @@
 			<span class='tab-name'>Price</span>
 		</div>		
 	</div>
-	<div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t rengl' ng-repeat='part in OPTIONS | filter:searchText '>
+	<div class='col-md-12 col-sm-12 col-xs-12 nopadding bord-t rengl' ng-repeat="part in OPTIONS | orderBy:'+orden' | filter:searchText  ">
 	  	<div class="res-table">
 			<div class="col-md-8 col-sm-8 col-xs-8">
 				<div class='col-md-2 col-sm-2 col-xs-2 nopadding res-col' data-label="Option">
