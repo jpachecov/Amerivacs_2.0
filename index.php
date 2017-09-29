@@ -20,7 +20,7 @@
 
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body  onload="javascript:cambiarPestanna(pestanas,pestana1);" >
+  <body  >
    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <div ng-controller='controlador'>
 
