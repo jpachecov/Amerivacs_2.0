@@ -142,8 +142,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-sanitize/1.5.6/angular-sanitize.js"></script>
     <script src="js/sizeChecker.js"></script>
-    <script type="text/javascript" src="js/cambiarPestanna.js"></script>
-        
+       
     <!--<script src="http://sdks.shopifycdn.com/js-buy-sdk/latest/shopify-buy.polyfilled.globals.min.js"></script>-->
     <script src="js/app.js"></script>
     <script src="js/products.js"></script>
