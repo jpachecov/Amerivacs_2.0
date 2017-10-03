@@ -961,7 +961,7 @@ $scope.cambiaPestana = function(container, content){
 
 $scope.cargaImagen = function(url){
 
-	$('#image-gallery-image').attr('src', "/amerivacs/" + url);
+	$('#image-gallery-image').attr('src', url);
 
 
 	}
