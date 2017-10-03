@@ -963,10 +963,7 @@ $scope.cargaImagen = function(url){
 
 	$('#image-gallery-image').attr('src', url);
 
-
-	}
-
-	
+}
 
 });
 
