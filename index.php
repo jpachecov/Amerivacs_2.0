@@ -109,12 +109,12 @@
          </div>
          <div class='submenu col-md-5 col-xs-12 col-sm-6'>
            <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("home")'>HOME</span>
-           <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("products")'>PRODUCTS</span>
+           <span class='cursor hov4 col-md-3 col-xs-3 dropbtn'  ng-click='loadPage("products")'>PRODUCTS</span>
            <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("about_us")'>ABOUT US</span>
            <span class='cursor hov4 col-md-3 col-xs-3' ng-click='loadPage("contact")'>CONTACT US</span>
          </div>
 
-         <div class='col-md-5 col-sm-6 col-xs-12'>
+         <div class='col-md-5 col-sm-6 col-xs-12 dropdown-content'>
             
             <div class='col-md-3 col-xs-3 col-sm-3' style='height:2px'></div>
             <div class='col-md-9 col-xs-9 col-sm-6'>
