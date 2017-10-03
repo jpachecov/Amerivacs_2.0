@@ -58,6 +58,17 @@
     color: white;
 }
 
+.imagenCaen{
+
+}
+
+ @media (min-width: 720px) {
+
+     .imagenCaen {
+       height: 306px;
+    }
+
+ }
 
 @media (max-width: 720px) {
 
