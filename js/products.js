@@ -965,6 +965,20 @@ $scope.cargaImagen = function(url){
 
 }
 
+
+$scope.footer = false;
+$scope.showFooter = function() {
+	console.log("showFooter");
+	$(".dropdown-content").css("display", "block");
+	$scope.footer = true;
+}
+
+$scope.hideFooter = function () {
+	$(".dropdown-content").css("display", "none");
+	$scope.footer = false;	
+}
+
+
 });
 
 

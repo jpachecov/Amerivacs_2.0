@@ -6,7 +6,7 @@ var app = angular.module('amerivacs', ['ngSanitize','ngAnimate','ngRoute']);
 // Rutas para la aplicacion
 app.config(['$routeProvider', function($routeProvider){
 
-	var local = false;
+	var local = true;
     $routeProvider
     .when('/',{templateUrl: ((local)?"../amerivacs":"") + "/inicio.html"})
     .when('/home',{templateUrl: ((local)?"../amerivacs":"") + "/inicio.html"})
@@ -28,7 +28,7 @@ app.config(function($locationProvider){
 });
 
 app.run(function($rootScope){
-	var local = false;
+	var local = true;
 	$rootScope.dir = (local)?"../amerivacs/":"";
 	$rootScope.options = [
 		{
