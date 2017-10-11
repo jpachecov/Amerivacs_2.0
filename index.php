@@ -99,9 +99,10 @@
              <br><br>
              <span style='width:49%; display:inline-block; margin:0%;'>1518 Lancaster Point Way</span>
              <span style='width:49%; display:inline-block; margin:0%;'>Tel 1 (877) AmeriVacS </span>
+             <span style='width:49%; display:inline-block; margin:0%;'>  San Diego, CA 92154  </span>
              <span style='width:49%; display:inline-block; margin:0%;'>Fax (619) 498-8222 </span>
              <br>
-             San Diego, CA 92154
+            
            </p>
             <div class="col-md-12 col-sm-12 col-xs-12" style="padding-top:20px">
               <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?code=6f400ac2f6094ade9615ab5897e016a2"></script>          
